@@ -2,8 +2,7 @@
 
 
 
-<iframe width="100%" height="575" src="https://jsfiddle.net/ThomasRoca/xfhsgc5w/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-
+<iframe width="100%" height="300" src="https://jsfiddle.net/ThomasRoca/xfhsgc5w/embedded/result,js,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 <br>
 
 You can use the [editor on GitHub](https://github.com/ThomasRoca/AmericanCommunitySurveyProject/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
