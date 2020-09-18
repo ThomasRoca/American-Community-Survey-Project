@@ -1,5 +1,7 @@
 ## Welcome to GitHub Pages
 
+<iframe width="100%" height="300" src="https://jsfiddle.net/ThomasRoca/xfhsgc5w/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 You can use the [editor on GitHub](https://github.com/ThomasRoca/AmericanCommunitySurveyProject/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
