@@ -16,9 +16,8 @@ In the this tutorial, I'm going to present one of the most insightful data sourc
 - Web page of the [American Community Survey](https://www.census.gov/programs-surveys/acs)
 - [ACS API Handbook]( https://www.census.gov/content/dam/Census/library/publications/2020/acs/acs_api_handbook_2020.pdf), 2020, U.S. Census Bureau
 
+
+
 <iframe width="100%" height="575px" src="https://jsfiddle.net/ThomasRoca/xfhsgc5w/embedded/result,js,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 <br>
 
-You can use the [editor on GitHub](https://github.com/ThomasRoca/AmericanCommunitySurveyProject/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
