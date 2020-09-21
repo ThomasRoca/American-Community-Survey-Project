@@ -18,6 +18,21 @@ In the this tutorial, I'm going to present one of the most insightful data sourc
 
 
 
+## 1. ACS API endpoint
+
+
+## 2. Example of query using Python
+
+### i. Data-visualization with Matplotlib
+
+### ii. Data visualization using Microsoft PowerBI
+
+## 3. Example of query using JavaScript
+
+### i. Simple visualization with d3.js
+
+### ii. Your first application using Highcharts
+
 <iframe width="100%" height="575px" src="https://jsfiddle.net/ThomasRoca/xfhsgc5w/embedded/result,js,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 <br>
 
