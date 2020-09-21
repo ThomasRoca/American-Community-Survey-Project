@@ -1,6 +1,6 @@
-<link rel="stylesheet" type="text/css" media="all" href="style.css" >
+# Welcome to our tutorial !
 
-## Welcome to our tutorial
+## About the U.S. Census Bureau's American Community Survey
 
 
 
