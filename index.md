@@ -4,12 +4,14 @@
 
 
 ## About this tutorial
+Open data is about transparency, accountability and empowerement. In the this tutorial, I'm going to present one of the most insightful data sources to understand racial inequality in the United States of America and provide some tips to leverage its associated [API](https://en.wikipedia.org/wiki/API) which will allow querying this very rich database programmatically.
 
 
+## About the U.S. Census Bureau's American Community Survey (ACS)
 
-## About the U.S. Census Bureau's American Community Survey
 
-
+## Resources
+- [ACS API Handbook]( https://www.census.gov/content/dam/Census/library/publications/2020/acs/acs_api_handbook_2020.pdf), 2020, U.S. Census Bureau
 
 <iframe width="100%" height="575px" src="https://jsfiddle.net/ThomasRoca/xfhsgc5w/embedded/result,js,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 <br>
