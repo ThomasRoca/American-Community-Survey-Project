@@ -1,4 +1,4 @@
-<small>Author: Thomas Roca, Senior Data-Scientist **@Microsoft**** - Data Science and Analytics Team :octocat:</small>
+<small>Author: Thomas Roca, Senior Data-Scientist **@Microsoft** - Data Science and Analytics Team :octocat:</small>
 
 <br>
 
