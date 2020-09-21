@@ -6,7 +6,6 @@
     color: #fff;
     text-align: center;
     background-color: #426080;
-     padding: 2rem 1rem;
     background-image: linear-gradient(120deg, #155799, #1a1c27);
 }
 
@@ -15,4 +14,9 @@
     margin-bottom: 1rem;
     font-weight: bold;
     color: #15518E;
+}
+
+media screen and (min-width: 64em)
+.page-header {
+    padding: 5rem 6rem;
 }
