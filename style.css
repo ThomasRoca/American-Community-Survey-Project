@@ -1,4 +1,7 @@
-<style>
+---
+---
+
+@import "{{ site.theme }}";
   .page-header {
     color: #fff;
     text-align: center;
@@ -12,4 +15,3 @@
     font-weight: bold;
     color: #4b6580;
 }
-  </style>
