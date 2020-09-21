@@ -1,4 +1,4 @@
-<small>Author: Thomas Roca, Senior Data scientist @Microsoft - Data Science and Analytics Team :microsoft</small>
+<small>Author: Thomas Roca, Senior Data scientist @Microsoft - Data Science and Analytics Team :coffee</small>
 
 <br>
 
