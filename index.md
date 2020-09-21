@@ -6,7 +6,7 @@
 ## About this tutorial
 Open data is about transparency, accountability and empowerement. By making accessible the data they collect - those that can be shared without harming data subjects - organizations provide information to the public but also opportunities to build systems and applications that can consume it, transform it, repurpose it and eventually make it even more useful for society. 
 
-In the this tutorial, I'm going to present one of the most insightful data sources to understand racial inequality in the United States of America and provide some tips to leverage its associated [API](https://en.wikipedia.org/wiki/API) which will allow querying this very rich database programmatically. I will also provide some example of data visualization that can be drawn using different frameworks. 
+In the this tutorial, I'm going to present one of the most insightful data source to understand racial inequality in the United States. I'll provide tips to leverage its [API](https://en.wikipedia.org/wiki/API) - i.e. programmatically query the database. I will also provide examples of data visualizations and simple applications we can build on the top of the database. I will provide snipets of **Python** code and **JavaScript**. I will us Microsoft **PowerBI**, **Highcharts** and **d3.js** to generate charts.
 
 
 ## About US Census Bureau's American Community Survey (ACS)
