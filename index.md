@@ -1,18 +1,4 @@
-<style>
-  .page-header {
-    color: #fff;
-    text-align: center;
-    background-color: #426080;
-    background-image: linear-gradient(120deg, #155799, #1a1c27);
-}
 
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-weight: bold;
-    color: #4b6580;
-}
-  </style>
 
 ## Welcome to GitHub Pages
 
