@@ -18,7 +18,6 @@ To easily share JavaScript code, I'll use [JSfiddle](https://jsfiddle.net/).
 - [ACS API Handbook]( https://www.census.gov/content/dam/Census/library/publications/2020/acs/acs_api_handbook_2020.pdf), 2020, U.S. Census Bureau
 
 
-
 ## 1. ACS API endpoint
 
 ## 2. Example of query using Python
