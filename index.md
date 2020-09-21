@@ -1,4 +1,6 @@
-# Welcome to our tutorial !
+*Author: Thomas Roca, Senior Data scientist @Microsoft - Data Science and Analytics Team*
+
+## Welcome to our tutorial !
 
 ## About the U.S. Census Bureau's American Community Survey
 
