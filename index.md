@@ -7,7 +7,7 @@
 Open data is about transparency, accountability and empowerement. In the this tutorial, I'm going to present one of the most insightful data sources to understand racial inequality in the United States of America and provide some tips to leverage its associated [API](https://en.wikipedia.org/wiki/API) which will allow querying this very rich database programmatically. I will also provide some example of data visualization that can be drawn using different frameworks. 
 
 
-## About the U.S. Census Bureau's American Community Survey (ACS)
+## About US Census Bureau's American Community Survey (ACS)
 
 
 ## Resources
