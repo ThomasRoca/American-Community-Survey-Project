@@ -13,6 +13,7 @@ In the this tutorial, I'm going to present one of the most insightful data sourc
 
 
 ## Resources
+- Web page of the [American Community Survey](https://www.census.gov/programs-surveys/acs)
 - [ACS API Handbook]( https://www.census.gov/content/dam/Census/library/publications/2020/acs/acs_api_handbook_2020.pdf), 2020, U.S. Census Bureau
 
 <iframe width="100%" height="575px" src="https://jsfiddle.net/ThomasRoca/xfhsgc5w/embedded/result,js,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
