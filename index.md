@@ -1,4 +1,4 @@
-*Author: Thomas Roca, Senior Data scientist @Microsoft - Data Science and Analytics Team*
+<small>Author: Thomas Roca, Senior Data scientist @Microsoft - Data Science and Analytics Team</small>
 
 ## Welcome to our tutorial !
 
