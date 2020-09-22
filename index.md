@@ -28,8 +28,7 @@ An endpoint is simply the url of the API. It contains the necessary information 
 Let's take an example: 
 [https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_308E&for=state:*](https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_308E&for=state:*)
 
-The API will respond this (we truncated the response to save space here): 
-
+The API will respond an array of arrays like this - nb. we truncated the response to save space: 
   <code>[["NAME","S0201_308E","state"],</code><br>
   <code>["Minnesota","86.8","27"],</code><br>
   <code>["Mississippi","76.3","28"],</code><br>
@@ -42,11 +41,13 @@ The API will respond this (we truncated the response to save space here):
   <code>["Kentucky","81.7","21"],</code><br>
   <code>["Louisiana","78.1","22"],</code><br>
   <code>["Michigan","84.1","26"]]</code><br>
+The first element of an array is the geography NAME (here names of the States), the second is the value of the requested indicator (here S0201_308E which is the code for household with a broaband internet subscription), finaly the last element is the State code used by the census bureau.
 
 - Here is the API endpoint: ``https://api.census.gov/``  - NB. it has no parameter.
 - In this example we request the 2018 ACS survey: ``data/2018/acs/acs1/``
 And now we can define our parameters: 
-  - indicator NAME - i.e. code : ``S0201_308E`` (which correspond to *COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription*)
+  - NAME will allow us to have the actual name of the geography displayed on the top of the geography code.
+  - indicator code : ``S0201_308E`` (which correspond to *COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription*)
   - geography all states: ``state:*``
   - Note that between each parameter the ``&`` parameter is added. We can also use ``,`` to add several of the same entity for e.g.: ``S0201_307E,S0201_308E,S0201_246E``
 
