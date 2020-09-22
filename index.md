@@ -77,6 +77,7 @@ More information about codes for states, county, population groups etc. are avai
 Finally, if you want to make many requests to the API (More than 500 queries per IP address per day), you will need to get an [API key](https://api.census.gov/data/key_signup.html) - free. 
 To use an API key, just add the parameter ``&key=``  - followed by your api key -  at the end of your query.
 
+
 ## 2. Example of query using Python
 
 ```python 
@@ -200,6 +201,7 @@ df
     </tr>
   </tbody>
 </table>
+
 
 ### i. Data-visualization with Matplotlib
 
