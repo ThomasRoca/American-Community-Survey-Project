@@ -1,0 +1,367 @@
+,NAME,S0201_308E,POPGROUP,metropolitan statistical area/micropolitan statistical area
+0,"Akron, OH Metro Area",86.0,001,10420
+1,"Albany-Schenectady-Troy, NY Metro Area",86.9,001,10580
+2,"Albuquerque, NM Metro Area",82.0,001,10740
+3,"Allentown-Bethlehem-Easton, PA-NJ Metro Area",84.8,001,10900
+4,"Atlanta-Sandy Springs-Roswell, GA Metro Area",88.4,001,12060
+5,"Augusta-Richmond County, GA-SC Metro Area",80.2,001,12260
+6,"Austin-Round Rock, TX Metro Area",91.3,001,12420
+7,"Bakersfield, CA Metro Area",84.2,001,12540
+8,"Baltimore-Columbia-Towson, MD Metro Area",87.6,001,12580
+9,"Baton Rouge, LA Metro Area",85.4,001,12940
+10,"Birmingham-Hoover, AL Metro Area",83.5,001,13820
+11,"Boise City, ID Metro Area",88.7,001,14260
+12,"Boston-Cambridge-Newton, MA-NH Metro Area",89.6,001,14460
+13,"Bridgeport-Stamford-Norwalk, CT Metro Area",90.6,001,14860
+14,"Buffalo-Cheektowaga-Niagara Falls, NY Metro Area",84.1,001,15380
+15,"Cape Coral-Fort Myers, FL Metro Area",87.4,001,15980
+16,"Charleston-North Charleston, SC Metro Area",84.2,001,16700
+17,"Charlotte-Concord-Gastonia, NC-SC Metro Area",88.7,001,16740
+18,"Chattanooga, TN-GA Metro Area",84.2,001,16860
+19,"Chicago-Naperville-Elgin, IL-IN-WI Metro Area",86.6,001,16980
+20,"Cincinnati, OH-KY-IN Metro Area",87.0,001,17140
+21,"Cleveland-Elyria, OH Metro Area",83.1,001,17460
+22,"Colorado Springs, CO Metro Area",91.9,001,17820
+23,"Columbia, SC Metro Area",85.4,001,17900
+24,"Columbus, OH Metro Area",88.3,001,18140
+25,"Dallas-Fort Worth-Arlington, TX Metro Area",88.3,001,19100
+26,"Dayton, OH Metro Area",86.7,001,19380
+27,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",81.2,001,19660
+28,"Denver-Aurora-Lakewood, CO Metro Area",90.8,001,19740
+29,"Des Moines-West Des Moines, IA Metro Area",87.5,001,19780
+30,"Detroit-Warren-Dearborn, MI Metro Area",85.0,001,19820
+31,"Durham-Chapel Hill, NC Metro Area",87.3,001,20500
+32,"El Paso, TX Metro Area",79.6,001,21340
+33,"Fayetteville-Springdale-Rogers, AR-MO Metro Area",80.9,001,22220
+34,"Fresno, CA Metro Area",81.3,001,23420
+35,"Grand Rapids-Wyoming, MI Metro Area",86.8,001,24340
+36,"Greensboro-High Point, NC Metro Area",79.8,001,24660
+37,"Greenville-Anderson-Mauldin, SC Metro Area",83.3,001,24860
+38,"Harrisburg-Carlisle, PA Metro Area",84.4,001,25420
+39,"Hartford-West Hartford-East Hartford, CT Metro Area",86.6,001,25540
+40,"Houston-The Woodlands-Sugar Land, TX Metro Area",87.7,001,26420
+41,"Indianapolis-Carmel-Anderson, IN Metro Area",85.4,001,26900
+42,"Jackson, MS Metro Area",81.3,001,27140
+43,"Jacksonville, FL Metro Area",88.5,001,27260
+44,"Kansas City, MO-KS Metro Area",87.3,001,28140
+45,"Knoxville, TN Metro Area",81.7,001,28940
+46,"Lakeland-Winter Haven, FL Metro Area",73.0,001,29460
+47,"Lancaster, PA Metro Area",80.9,001,29540
+48,"Las Vegas-Henderson-Paradise, NV Metro Area",85.4,001,29820
+49,"Lexington-Fayette, KY Metro Area",88.9,001,30460
+50,"Little Rock-North Little Rock-Conway, AR Metro Area",81.7,001,30780
+51,"Los Angeles-Long Beach-Anaheim, CA Metro Area",87.7,001,31080
+52,"Louisville/Jefferson County, KY-IN Metro Area",84.2,001,31140
+53,"Madison, WI Metro Area",87.7,001,31540
+54,"McAllen-Edinburg-Mission, TX Metro Area",68.9,001,32580
+55,"Memphis, TN-MS-AR Metro Area",78.0,001,32820
+56,"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",83.9,001,33100
+57,"Milwaukee-Waukesha-West Allis, WI Metro Area",84.2,001,33340
+58,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",89.5,001,33460
+59,"Modesto, CA Metro Area",87.0,001,33700
+60,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",88.8,001,34980
+61,"New Haven-Milford, CT Metro Area",84.0,001,35300
+62,"New Orleans-Metairie, LA Metro Area",81.0,001,35380
+63,"New York-Newark-Jersey City, NY-NJ-PA Metro Area",86.7,001,35620
+64,"North Port-Sarasota-Bradenton, FL Metro Area",87.6,001,35840
+65,"Ogden-Clearfield, UT Metro Area",91.6,001,36260
+66,"Oklahoma City, OK Metro Area",85.8,001,36420
+67,"Omaha-Council Bluffs, NE-IA Metro Area",87.5,001,36540
+68,"Orlando-Kissimmee-Sanford, FL Metro Area",88.4,001,36740
+69,"Oxnard-Thousand Oaks-Ventura, CA Metro Area",89.6,001,37100
+70,"Palm Bay-Melbourne-Titusville, FL Metro Area",88.8,001,37340
+71,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",87.0,001,37980
+72,"Phoenix-Mesa-Scottsdale, AZ Metro Area",88.5,001,38060
+73,"Pittsburgh, PA Metro Area",85.2,001,38300
+74,"Portland-South Portland, ME Metro Area",88.4,001,38860
+75,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",90.5,001,38900
+76,"Providence-Warwick, RI-MA Metro Area",84.5,001,39300
+77,"Provo-Orem, UT Metro Area",89.6,001,39340
+78,"Raleigh, NC Metro Area",90.0,001,39580
+79,"Richmond, VA Metro Area",86.0,001,40060
+80,"Riverside-San Bernardino-Ontario, CA Metro Area",87.5,001,40140
+81,"Rochester, NY Metro Area",86.4,001,40380
+82,"Sacramento--Roseville--Arden-Arcade, CA Metro Area",90.5,001,40900
+83,"St. Louis, MO-IL Metro Area",86.0,001,41180
+84,"Salt Lake City, UT Metro Area",90.7,001,41620
+85,"San Antonio-New Braunfels, TX Metro Area",84.3,001,41700
+86,"San Diego-Carlsbad, CA Metro Area",92.2,001,41740
+87,"San Francisco-Oakland-Hayward, CA Metro Area",91.5,001,41860
+88,"San Jose-Sunnyvale-Santa Clara, CA Metro Area",93.5,001,41940
+89,"Santa Rosa, CA Metro Area",92.5,001,42220
+90,"Scranton--Wilkes-Barre--Hazleton, PA Metro Area",82.2,001,42540
+91,"Seattle-Tacoma-Bellevue, WA Metro Area",91.7,001,42660
+92,"Spokane-Spokane Valley, WA Metro Area",88.2,001,44060
+93,"Springfield, MA Metro Area",82.0,001,44140
+94,"Stockton-Lodi, CA Metro Area",84.9,001,44700
+95,"Syracuse, NY Metro Area",82.0,001,45060
+96,"Tampa-St. Petersburg-Clearwater, FL Metro Area",86.3,001,45300
+97,"Toledo, OH Metro Area",84.5,001,45780
+98,"Tucson, AZ Metro Area",86.9,001,46060
+99,"Tulsa, OK Metro Area",84.5,001,46140
+100,"Urban Honolulu, HI Metro Area",88.3,001,46520
+101,"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area",84.2,001,47260
+102,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",91.7,001,47900
+103,"Wichita, KS Metro Area",85.6,001,48620
+104,"Winston-Salem, NC Metro Area",79.8,001,49180
+105,"Worcester, MA-CT Metro Area",87.9,001,49340
+106,"Youngstown-Warren-Boardman, OH-PA Metro Area",81.8,001,49660
+107,"Akron, OH Metro Area",86.9,002,10420
+108,"Albany-Schenectady-Troy, NY Metro Area",87.7,002,10580
+109,"Albuquerque, NM Metro Area",83.0,002,10740
+110,"Allentown-Bethlehem-Easton, PA-NJ Metro Area",84.1,002,10900
+111,"Atlanta-Sandy Springs-Roswell, GA Metro Area",90.5,002,12060
+112,"Augusta-Richmond County, GA-SC Metro Area",84.7,002,12260
+113,"Austin-Round Rock, TX Metro Area",91.8,002,12420
+114,"Bakersfield, CA Metro Area",83.2,002,12540
+115,"Baltimore-Columbia-Towson, MD Metro Area",90.0,002,12580
+116,"Baton Rouge, LA Metro Area",87.7,002,12940
+117,"Birmingham-Hoover, AL Metro Area",86.4,002,13820
+118,"Boise City, ID Metro Area",88.9,002,14260
+119,"Boston-Cambridge-Newton, MA-NH Metro Area",90.3,002,14460
+120,"Bridgeport-Stamford-Norwalk, CT Metro Area",91.3,002,14860
+121,"Buffalo-Cheektowaga-Niagara Falls, NY Metro Area",85.5,002,15380
+122,"Cape Coral-Fort Myers, FL Metro Area",87.9,002,15980
+123,"Charleston-North Charleston, SC Metro Area",87.5,002,16700
+124,"Charlotte-Concord-Gastonia, NC-SC Metro Area",89.9,002,16740
+125,"Chattanooga, TN-GA Metro Area",86.8,002,16860
+126,"Chicago-Naperville-Elgin, IL-IN-WI Metro Area",88.3,002,16980
+127,"Cincinnati, OH-KY-IN Metro Area",88.1,002,17140
+128,"Cleveland-Elyria, OH Metro Area",85.3,002,17460
+129,"Colorado Springs, CO Metro Area",92.2,002,17820
+130,"Columbia, SC Metro Area",88.5,002,17900
+131,"Columbus, OH Metro Area",89.0,002,18140
+132,"Dallas-Fort Worth-Arlington, TX Metro Area",89.5,002,19100
+133,"Dayton, OH Metro Area",87.6,002,19380
+134,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",83.6,002,19660
+135,"Denver-Aurora-Lakewood, CO Metro Area",91.4,002,19740
+136,"Des Moines-West Des Moines, IA Metro Area",87.3,002,19780
+137,"Detroit-Warren-Dearborn, MI Metro Area",88.2,002,19820
+138,"Durham-Chapel Hill, NC Metro Area",89.9,002,20500
+139,"El Paso, TX Metro Area",78.7,002,21340
+140,"Fayetteville-Springdale-Rogers, AR-MO Metro Area",81.5,002,22220
+141,"Fresno, CA Metro Area",80.4,002,23420
+142,"Grand Rapids-Wyoming, MI Metro Area",87.4,002,24340
+143,"Greensboro-High Point, NC Metro Area",81.4,002,24660
+144,"Greenville-Anderson-Mauldin, SC Metro Area",84.9,002,24860
+145,"Harrisburg-Carlisle, PA Metro Area",85.1,002,25420
+146,"Hartford-West Hartford-East Hartford, CT Metro Area",86.8,002,25540
+147,"Houston-The Woodlands-Sugar Land, TX Metro Area",88.5,002,26420
+148,"Indianapolis-Carmel-Anderson, IN Metro Area",87.8,002,26900
+149,"Jackson, MS Metro Area",84.1,002,27140
+150,"Jacksonville, FL Metro Area",89.9,002,27260
+151,"Kansas City, MO-KS Metro Area",88.3,002,28140
+152,"Knoxville, TN Metro Area",82.4,002,28940
+153,"Lakeland-Winter Haven, FL Metro Area",75.0,002,29460
+154,"Lancaster, PA Metro Area",80.5,002,29540
+155,"Las Vegas-Henderson-Paradise, NV Metro Area",87.2,002,29820
+156,"Lexington-Fayette, KY Metro Area",90.0,002,30460
+157,"Little Rock-North Little Rock-Conway, AR Metro Area",83.9,002,30780
+158,"Los Angeles-Long Beach-Anaheim, CA Metro Area",88.9,002,31080
+159,"Louisville/Jefferson County, KY-IN Metro Area",85.1,002,31140
+160,"Madison, WI Metro Area",87.6,002,31540
+161,"McAllen-Edinburg-Mission, TX Metro Area",67.2,002,32580
+162,"Memphis, TN-MS-AR Metro Area",85.3,002,32820
+163,"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",85.3,002,33100
+164,"Milwaukee-Waukesha-West Allis, WI Metro Area",86.8,002,33340
+165,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",90.1,002,33460
+166,"Modesto, CA Metro Area",86.8,002,33700
+167,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",89.6,002,34980
+168,"New Haven-Milford, CT Metro Area",85.1,002,35300
+169,"New Orleans-Metairie, LA Metro Area",86.4,002,35380
+170,"New York-Newark-Jersey City, NY-NJ-PA Metro Area",87.8,002,35620
+171,"North Port-Sarasota-Bradenton, FL Metro Area",87.9,002,35840
+172,"Ogden-Clearfield, UT Metro Area",91.8,002,36260
+173,"Oklahoma City, OK Metro Area",87.3,002,36420
+174,"Omaha-Council Bluffs, NE-IA Metro Area",88.1,002,36540
+175,"Orlando-Kissimmee-Sanford, FL Metro Area",90.0,002,36740
+176,"Oxnard-Thousand Oaks-Ventura, CA Metro Area",89.0,002,37100
+177,"Palm Bay-Melbourne-Titusville, FL Metro Area",89.0,002,37340
+178,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",89.5,002,37980
+179,"Phoenix-Mesa-Scottsdale, AZ Metro Area",89.0,002,38060
+180,"Pittsburgh, PA Metro Area",85.6,002,38300
+181,"Portland-South Portland, ME Metro Area",88.5,002,38860
+182,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",90.7,002,38900
+183,"Providence-Warwick, RI-MA Metro Area",85.1,002,39300
+184,"Provo-Orem, UT Metro Area",89.7,002,39340
+185,"Raleigh, NC Metro Area",91.7,002,39580
+186,"Richmond, VA Metro Area",89.2,002,40060
+187,"Riverside-San Bernardino-Ontario, CA Metro Area",87.3,002,40140
+188,"Rochester, NY Metro Area",87.3,002,40380
+189,"Sacramento--Roseville--Arden-Arcade, CA Metro Area",90.9,002,40900
+190,"St. Louis, MO-IL Metro Area",88.4,002,41180
+191,"Salt Lake City, UT Metro Area",90.5,002,41620
+192,"San Antonio-New Braunfels, TX Metro Area",84.6,002,41700
+193,"San Diego-Carlsbad, CA Metro Area",92.3,002,41740
+194,"San Francisco-Oakland-Hayward, CA Metro Area",92.3,002,41860
+195,"San Jose-Sunnyvale-Santa Clara, CA Metro Area",92.8,002,41940
+196,"Santa Rosa, CA Metro Area",92.4,002,42220
+197,"Scranton--Wilkes-Barre--Hazleton, PA Metro Area",81.8,002,42540
+198,"Seattle-Tacoma-Bellevue, WA Metro Area",92.1,002,42660
+199,"Spokane-Spokane Valley, WA Metro Area",88.1,002,44060
+200,"Springfield, MA Metro Area",82.2,002,44140
+201,"Stockton-Lodi, CA Metro Area",83.9,002,44700
+202,"Syracuse, NY Metro Area",84.6,002,45060
+203,"Tampa-St. Petersburg-Clearwater, FL Metro Area",86.8,002,45300
+204,"Toledo, OH Metro Area",85.5,002,45780
+205,"Tucson, AZ Metro Area",87.5,002,46060
+206,"Tulsa, OK Metro Area",85.6,002,46140
+207,"Urban Honolulu, HI Metro Area",92.5,002,46520
+208,"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area",88.0,002,47260
+209,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",93.7,002,47900
+210,"Wichita, KS Metro Area",86.3,002,48620
+211,"Winston-Salem, NC Metro Area",82.0,002,49180
+212,"Worcester, MA-CT Metro Area",87.6,002,49340
+213,"Youngstown-Warren-Boardman, OH-PA Metro Area",82.1,002,49660
+214,"Akron, OH Metro Area",80.7,004,10420
+215,"Albany-Schenectady-Troy, NY Metro Area",78.3,004,10580
+216,"Atlanta-Sandy Springs-Roswell, GA Metro Area",84.4,004,12060
+217,"Augusta-Richmond County, GA-SC Metro Area",71.3,004,12260
+218,"Austin-Round Rock, TX Metro Area",85.6,004,12420
+219,"Baltimore-Columbia-Towson, MD Metro Area",81.7,004,12580
+220,"Baton Rouge, LA Metro Area",80.5,004,12940
+221,"Birmingham-Hoover, AL Metro Area",77.3,004,13820
+222,"Boston-Cambridge-Newton, MA-NH Metro Area",82.1,004,14460
+223,"Bridgeport-Stamford-Norwalk, CT Metro Area",84.2,004,14860
+224,"Buffalo-Cheektowaga-Niagara Falls, NY Metro Area",76.2,004,15380
+225,"Cape Coral-Fort Myers, FL Metro Area",81.4,004,15980
+226,"Charleston-North Charleston, SC Metro Area",73.7,004,16700
+227,"Charlotte-Concord-Gastonia, NC-SC Metro Area",84.1,004,16740
+228,"Chattanooga, TN-GA Metro Area",69.7,004,16860
+229,"Chicago-Naperville-Elgin, IL-IN-WI Metro Area",78.4,004,16980
+230,"Cincinnati, OH-KY-IN Metro Area",79.4,004,17140
+231,"Cleveland-Elyria, OH Metro Area",74.5,004,17460
+232,"Columbia, SC Metro Area",79.3,004,17900
+233,"Columbus, OH Metro Area",82.0,004,18140
+234,"Dallas-Fort Worth-Arlington, TX Metro Area",81.9,004,19100
+235,"Dayton, OH Metro Area",81.1,004,19380
+236,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",66.2,004,19660
+237,"Denver-Aurora-Lakewood, CO Metro Area",83.7,004,19740
+238,"Detroit-Warren-Dearborn, MI Metro Area",74.0,004,19820
+239,"Durham-Chapel Hill, NC Metro Area",79.7,004,20500
+240,"Grand Rapids-Wyoming, MI Metro Area",77.6,004,24340
+241,"Greensboro-High Point, NC Metro Area",75.5,004,24660
+242,"Greenville-Anderson-Mauldin, SC Metro Area",75.0,004,24860
+243,"Harrisburg-Carlisle, PA Metro Area",78.1,004,25420
+244,"Hartford-West Hartford-East Hartford, CT Metro Area",82.6,004,25540
+245,"Houston-The Woodlands-Sugar Land, TX Metro Area",84.7,004,26420
+246,"Indianapolis-Carmel-Anderson, IN Metro Area",72.7,004,26900
+247,"Jackson, MS Metro Area",77.9,004,27140
+248,"Jacksonville, FL Metro Area",83.1,004,27260
+249,"Kansas City, MO-KS Metro Area",80.2,004,28140
+250,"Lakeland-Winter Haven, FL Metro Area",57.4,004,29460
+251,"Las Vegas-Henderson-Paradise, NV Metro Area",78.8,004,29820
+252,"Little Rock-North Little Rock-Conway, AR Metro Area",74.8,004,30780
+253,"Los Angeles-Long Beach-Anaheim, CA Metro Area",80.7,004,31080
+254,"Louisville/Jefferson County, KY-IN Metro Area",78.7,004,31140
+255,"Memphis, TN-MS-AR Metro Area",69.2,004,32820
+256,"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",76.5,004,33100
+257,"Milwaukee-Waukesha-West Allis, WI Metro Area",72.6,004,33340
+258,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",82.4,004,33460
+259,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",84.8,004,34980
+260,"New Haven-Milford, CT Metro Area",81.3,004,35300
+261,"New Orleans-Metairie, LA Metro Area",71.4,004,35380
+262,"New York-Newark-Jersey City, NY-NJ-PA Metro Area",81.7,004,35620
+263,"Oklahoma City, OK Metro Area",76.1,004,36420
+264,"Omaha-Council Bluffs, NE-IA Metro Area",77.4,004,36540
+265,"Orlando-Kissimmee-Sanford, FL Metro Area",82.9,004,36740
+266,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",79.4,004,37980
+267,"Phoenix-Mesa-Scottsdale, AZ Metro Area",83.7,004,38060
+268,"Pittsburgh, PA Metro Area",77.9,004,38300
+269,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",81.3,004,38900
+270,"Providence-Warwick, RI-MA Metro Area",80.7,004,39300
+271,"Raleigh, NC Metro Area",83.6,004,39580
+272,"Richmond, VA Metro Area",77.5,004,40060
+273,"Riverside-San Bernardino-Ontario, CA Metro Area",84.4,004,40140
+274,"Rochester, NY Metro Area",78.8,004,40380
+275,"Sacramento--Roseville--Arden-Arcade, CA Metro Area",84.8,004,40900
+276,"St. Louis, MO-IL Metro Area",74.7,004,41180
+277,"San Antonio-New Braunfels, TX Metro Area",76.9,004,41700
+278,"San Diego-Carlsbad, CA Metro Area",88.4,004,41740
+279,"San Francisco-Oakland-Hayward, CA Metro Area",83.9,004,41860
+280,"Seattle-Tacoma-Bellevue, WA Metro Area",85.4,004,42660
+281,"Tampa-St. Petersburg-Clearwater, FL Metro Area",80.3,004,45300
+282,"Toledo, OH Metro Area",80.8,004,45780
+283,"Tulsa, OK Metro Area",74.9,004,46140
+284,"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area",75.3,004,47260
+285,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",87.2,004,47900
+286,"Winston-Salem, NC Metro Area",69.1,004,49180
+287,"Albuquerque, NM Metro Area",78.9,400,10740
+288,"Allentown-Bethlehem-Easton, PA-NJ Metro Area",85.7,400,10900
+289,"Atlanta-Sandy Springs-Roswell, GA Metro Area",82.5,400,12060
+290,"Austin-Round Rock, TX Metro Area",85.2,400,12420
+291,"Bakersfield, CA Metro Area",78.6,400,12540
+292,"Baltimore-Columbia-Towson, MD Metro Area",86.1,400,12580
+293,"Boise City, ID Metro Area",82.2,400,14260
+294,"Boston-Cambridge-Newton, MA-NH Metro Area",84.5,400,14460
+295,"Bridgeport-Stamford-Norwalk, CT Metro Area",89.2,400,14860
+296,"Cape Coral-Fort Myers, FL Metro Area",84.4,400,15980
+297,"Charlotte-Concord-Gastonia, NC-SC Metro Area",86.6,400,16740
+298,"Chicago-Naperville-Elgin, IL-IN-WI Metro Area",83.8,400,16980
+299,"Cincinnati, OH-KY-IN Metro Area",86.0,400,17140
+300,"Cleveland-Elyria, OH Metro Area",75.3,400,17460
+301,"Colorado Springs, CO Metro Area",89.2,400,17820
+302,"Columbus, OH Metro Area",88.4,400,18140
+303,"Dallas-Fort Worth-Arlington, TX Metro Area",81.8,400,19100
+304,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",75.7,400,19660
+305,"Denver-Aurora-Lakewood, CO Metro Area",84.3,400,19740
+306,"Detroit-Warren-Dearborn, MI Metro Area",83.2,400,19820
+307,"Durham-Chapel Hill, NC Metro Area",88.9,400,20500
+308,"El Paso, TX Metro Area",77.3,400,21340
+309,"Fayetteville-Springdale-Rogers, AR-MO Metro Area",73.8,400,22220
+310,"Fresno, CA Metro Area",77.1,400,23420
+311,"Grand Rapids-Wyoming, MI Metro Area",85.5,400,24340
+312,"Greensboro-High Point, NC Metro Area",78.1,400,24660
+313,"Hartford-West Hartford-East Hartford, CT Metro Area",80.1,400,25540
+314,"Houston-The Woodlands-Sugar Land, TX Metro Area",82.1,400,26420
+315,"Indianapolis-Carmel-Anderson, IN Metro Area",82.3,400,26900
+316,"Jacksonville, FL Metro Area",86.9,400,27260
+317,"Kansas City, MO-KS Metro Area",85.1,400,28140
+318,"Lakeland-Winter Haven, FL Metro Area",61.9,400,29460
+319,"Las Vegas-Henderson-Paradise, NV Metro Area",79.7,400,29820
+320,"Los Angeles-Long Beach-Anaheim, CA Metro Area",84.4,400,31080
+321,"McAllen-Edinburg-Mission, TX Metro Area",67.2,400,32580
+322,"Memphis, TN-MS-AR Metro Area",78.2,400,32820
+323,"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",82.0,400,33100
+324,"Milwaukee-Waukesha-West Allis, WI Metro Area",76.8,400,33340
+325,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",85.2,400,33460
+326,"Modesto, CA Metro Area",86.5,400,33700
+327,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",87.9,400,34980
+328,"New Haven-Milford, CT Metro Area",75.6,400,35300
+329,"New Orleans-Metairie, LA Metro Area",78.7,400,35380
+330,"New York-Newark-Jersey City, NY-NJ-PA Metro Area",82.8,400,35620
+331,"North Port-Sarasota-Bradenton, FL Metro Area",81.9,400,35840
+332,"Ogden-Clearfield, UT Metro Area",87.1,400,36260
+333,"Oklahoma City, OK Metro Area",82.9,400,36420
+334,"Omaha-Council Bluffs, NE-IA Metro Area",91.3,400,36540
+335,"Orlando-Kissimmee-Sanford, FL Metro Area",86.7,400,36740
+336,"Oxnard-Thousand Oaks-Ventura, CA Metro Area",83.4,400,37100
+337,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",81.9,400,37980
+338,"Phoenix-Mesa-Scottsdale, AZ Metro Area",82.6,400,38060
+339,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",88.2,400,38900
+340,"Providence-Warwick, RI-MA Metro Area",83.2,400,39300
+341,"Provo-Orem, UT Metro Area",87.2,400,39340
+342,"Raleigh, NC Metro Area",85.0,400,39580
+343,"Richmond, VA Metro Area",81.2,400,40060
+344,"Riverside-San Bernardino-Ontario, CA Metro Area",86.4,400,40140
+345,"Rochester, NY Metro Area",79.4,400,40380
+346,"Sacramento--Roseville--Arden-Arcade, CA Metro Area",89.5,400,40900
+347,"St. Louis, MO-IL Metro Area",88.7,400,41180
+348,"Salt Lake City, UT Metro Area",90.4,400,41620
+349,"San Antonio-New Braunfels, TX Metro Area",80.4,400,41700
+350,"San Diego-Carlsbad, CA Metro Area",90.2,400,41740
+351,"San Francisco-Oakland-Hayward, CA Metro Area",89.6,400,41860
+352,"San Jose-Sunnyvale-Santa Clara, CA Metro Area",88.8,400,41940
+353,"Santa Rosa, CA Metro Area",91.0,400,42220
+354,"Seattle-Tacoma-Bellevue, WA Metro Area",90.4,400,42660
+355,"Springfield, MA Metro Area",70.6,400,44140
+356,"Stockton-Lodi, CA Metro Area",82.2,400,44700
+357,"Tampa-St. Petersburg-Clearwater, FL Metro Area",84.7,400,45300
+358,"Tucson, AZ Metro Area",84.6,400,46060
+359,"Tulsa, OK Metro Area",86.8,400,46140
+360,"Urban Honolulu, HI Metro Area",90.1,400,46520
+361,"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area",84.5,400,47260
+362,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",90.1,400,47900
+363,"Wichita, KS Metro Area",79.0,400,48620
+364,"Winston-Salem, NC Metro Area",81.4,400,49180
+365,"Worcester, MA-CT Metro Area",83.8,400,49340
