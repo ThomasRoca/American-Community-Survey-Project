@@ -300,7 +300,7 @@ plt.show()
 
 ### ii. Data visualization using Microsoft PowerBI
 
-As another example of visualization, we showcase below what can be easily achieved by less advanced coders using [Microsoft PowerBI](https://powerbi.microsoft.com/). It allows to build dahsboard in minutes when you would need hours or days to code it from scratch. We used the same indicator we requested from the API in python. The CSV file is store in this GitHub repo and accessible [here](https://github.com/ThomasRoca/American-Community-Survey-Project/blob/master/ACS_broadband.csv). Note that the data source the PowerBi visualization below uses is the one hosted in this repo as PowerBI can connect to remote data sources.
+As another example of visualization, we showcase below what can be easily achieved by less advanced coders using [Microsoft PowerBI](https://powerbi.microsoft.com/). PowerBI allows to build dahsboards in minutes when you would need hours or days to code it from scratch. We used the same indicator as the python query example. The CSV file is stored in this GitHub repo and accessible [here](https://github.com/ThomasRoca/American-Community-Survey-Project/blob/master/ACS_broadband.csv). NB. The data source for this PowerBi visualization is the one hosted in this repo as PowerBI can easly connect to remote data sources.
 
 <iframe width="100%" height="450" src="https://msit.powerbi.com/view?r=eyJrIjoiOTRkNzc2OGQtN2ExYi00NDgyLTk1ZTQtYTY3YTNmNTMyYThlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
 
