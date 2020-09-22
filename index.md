@@ -266,6 +266,23 @@ Seattle
   </tbody>
 </table>
 
+```python
+import matplotlib.pyplot as plt; plt.rcdefaults()
+import numpy as np
+
+plt.figure(figsize=(12,6))
+pop_groups = Seattle["Population group"].tolist()
+y_pos = np.arange(len(pop_groups))
+broadband_home =Seattle["S0201_308E"].tolist()
+plt.bar(y_pos, broadband_home, align='center', alpha=0.6)
+plt.xticks(y_pos, pop_groups)
+plt.ylabel('% household with broadband subscription at home')
+plt.title('Broadband home by population Groups in Seattle-Tacoma-Bellevue, WA Metro Area ')
+
+plt.show()
+```
+![](https://raw.githubusercontent.com/ThomasRoca/American-Community-Survey-Project/gh-pages/assets/img/broadband_plot.png)
+
 
 ### ii. Data visualization using Microsoft PowerBI
 
