@@ -64,15 +64,16 @@ The parameter ``POPGROUP`` allow querying by population groups. Here are som exa
 - "400": "Hispanic or Latino (of any race) (200-299)"
 - "004": "Black or African American alone"
 - "012": "Asian alone (400-499)"<br>
-*More info about available population groups ("Race/Ethnic Group"): [here](https://api.census.gov/data/2019/acs/acs1/spp/variables/POPGROUP.json)*
+- *More info about available population groups ("Race/Ethnic Group"): [here](https://api.census.gov/data/2019/acs/acs1/spp/variables/POPGROUP.json)*
 
-Many indicators are available in the survey, here is a list of the one you can find in the 2019 ACS: https://api.census.gov/data/2019/acs/acs1/spp/variables.html
+Many indicators are available in the survey, here is a list of the one you can find in the 2019 ACS: [https://api.census.gov/data/2019/acs/acs1/spp/variables.html](https://api.census.gov/data/2019/acs/acs1/spp/variables.html).
+Results are available for several geography levels (States, congressional district, county, metropolitan areas, etc.). Here is the list of [available geography level for the 2019 ACS](https://api.census.gov/data/2019/acs/acs1/spp/examples.html).
 
+As an example here is how to get the total population for Alameda County (code 001) in the state of California (state code 06):
+[http://api.census.gov/data/2010/sf1?get=P0010001,NAME&for=county:001& in=state:06](http://api.census.gov/data/2010/sf1?get=P0010001,NAME&for=county:001& in=state:06)
 
-
-
-To construct your own request and get more information about all parameters available for the API take a look at these resources: 
-- 
+More information about codes for states, county, population groups etc. are available on the survey web page, we encourage you to search for them.
+Finally, 
 
 
 ## 2. Example of query using Python
