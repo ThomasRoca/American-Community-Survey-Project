@@ -44,7 +44,9 @@ The API will respond an array of arrays like this - nb. we truncated the respons
   <code>["Michigan","84.1","26"]]</code><br>
   
 
-The first element of an array is the geography NAME (here names of the States), the second is the value of the requested indicator (here S0201_308E which is the code for household with a broaband internet subscription), finaly the last element is the State code used by the census bureau.
+The first element of an array is the geography NAME (here names of the States), the second is the value of the requested indicator (here S0201_308E which is the code for household with a broaband internet subscription), finaly the last element is the State code used by the census bureau. 
+
+Let's look at the parameters in detail:
 
 - Here is the API endpoint: ``https://api.census.gov/``  - NB. it has no parameter.
 - In this example we request the 2018 ACS survey: ``data/2018/acs/acs1/``
