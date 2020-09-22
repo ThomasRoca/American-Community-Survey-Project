@@ -30,8 +30,8 @@ Let's take an example:
 
 The API will respond this (we truncated the response to save space here): 
 
-  <code>[["NAME","S0201_308E","state"],</code><br>
-  <code>["Minnesota","86.8","27"],</code><br>
+  <code>[["NAME","S0201_308E","state"],<br>
+ ["Minnesota","86.8","27"],</code><br>
   ["Mississippi","76.3","28"],
   ["Missouri","82.9","29"],
   ["Montana","83.6","30"],
