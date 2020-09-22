@@ -50,6 +50,7 @@ Let's look at **url parameters in details**:
 
 - Here is the API endpoint: ``https://api.census.gov/``  - NB. API url with no parameter.
 - In this example we request the 2018 ACS survey: ``data/2018/acs/acs1/``<br>
+
 And now we can define our parameters (using ``spp?get=`` as a prefix): 
   - NAME will allow us to have the actual name of the geography displayed on the top of the geography code.
   - indicator code : ``S0201_308E`` (which correspond to *COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription*)
