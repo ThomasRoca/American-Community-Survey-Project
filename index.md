@@ -30,18 +30,18 @@ Let's take an example:
 
 The API will respond this (we truncated the response to save space here): 
 
-  <code>[["NAME","S0201_308E","state"],<br>
- ["Minnesota","86.8","27"],</code><br>
-  ["Mississippi","76.3","28"],
-  ["Missouri","82.9","29"],
-  ["Montana","83.6","30"],
-  ["Nebraska","85.7","31"],
-  ["Nevada","85.9","32"],
-  ["New Hampshire","89.1","33"],
-  ...
-  ["Kentucky","81.7","21"],
-  ["Louisiana","78.1","22"],
-  ["Michigan","84.1","26"]]``
+  <code>[["NAME","S0201_308E","state"],</code><br>
+  <code>["Minnesota","86.8","27"],</code><br>
+  <code>["Mississippi","76.3","28"],</code><br>
+  <code>["Missouri","82.9","29"],</code><br>
+  <code>["Montana","83.6","30"],</code><br>
+  <code>["Nebraska","85.7","31"],</code><br>
+  <code>["Nevada","85.9","32"],</code><br>
+  <code>["New Hampshire","89.1","33"],</code><br>
+  <code>...</code><br>
+  <code>["Kentucky","81.7","21"],</code><br>
+  <code>["Louisiana","78.1","22"],</code><br>
+  <code>["Michigan","84.1","26"]]</code><br>
 
 - Here is the API endpoint: ``https://api.census.gov/``  - NB. it has no parameter.
 - In this example we request the 2018 ACS survey: ``data/2018/acs/acs1/``
