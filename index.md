@@ -88,26 +88,34 @@ import json
 # API given by US census bureau
 api_key=""
 
-# here we chose "Total households with a computer which code is S0201_307E
-indicator="S0201_307E"
+# here we chose "Total households with a broadband subscription which code is S0201_308E
+indicator="S0201_308E"
 
-# we want all available population groups
-popgroup="*"
+# we want Total population, white, Black or African American and Hispanic or Latino
+popgroup1="001"
+popgroup2="002"
+popgroup3="004"
+popgroup4="400"
 
 # here is the geography level : Metropolitan statistical area and micropolitan area
 # reference: https://www.census.gov/programs-surveys/metro-micro/about.html
 geo="metropolitan%20statistical%20area/micropolitan%20statistical%20area:*"
 
 # endpoint of the API
-url="https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,"+indicator+"&for="+geo+"&POPGROUP="+popgroup+"&key="+api_key
+url="https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,"+indicator+"&for="+geo+"&POPGROUP="+popgroup1+"&POPGROUP="+popgroup2+"&POPGROUP="+popgroup3+"&POPGROUP="+popgroup4+"&key="+api_key
 print(url)
 
 response = requests.get(url)
 data = json.loads(response.text)
 
-# display as a Pandas DataFrame
+# Save a Pandas DataFrame
 df=pd.DataFrame(data[1:], columns=data[0])
-df
+# values are stored as string, we need to convert them into numbers
+df['S0201_308E']=df['S0201_308E'].astype(float)
+
+#save as csv
+df.to_csv('ACS_broadband.csv')
+df.sort_values(["NAME"])
 ```
 [https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_307E&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&POPGROUP=*&key=](https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_307E&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&POPGROUP=*&key=)
 
@@ -116,7 +124,7 @@ df
     <tr style="text-align: right;">
       <th></th>
       <th>NAME</th>
-      <th>S0201_307E</th>
+      <th>S0201_308E</th>
       <th>POPGROUP</th>
       <th>metropolitan statistical area/micropolitan statistical area</th>
     </tr>
@@ -124,38 +132,38 @@ df
   <tbody>
     <tr>
       <th>0</th>
-      <td>Kansas City, MO-KS Metro Area</td>
-      <td>93.8</td>
+      <td>Akron, OH Metro Area</td>
+      <td>86.0</td>
       <td>001</td>
-      <td>28140</td>
+      <td>10420</td>
+    </tr>
+    <tr>
+      <th>214</th>
+      <td>Akron, OH Metro Area</td>
+      <td>80.7</td>
+      <td>004</td>
+      <td>10420</td>
+    </tr>
+    <tr>
+      <th>107</th>
+      <td>Akron, OH Metro Area</td>
+      <td>86.9</td>
+      <td>002</td>
+      <td>10420</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>Kansas City, MO-KS Metro Area</td>
-      <td>94.5</td>
+      <td>Albany-Schenectady-Troy, NY Metro Area</td>
+      <td>86.9</td>
+      <td>001</td>
+      <td>10580</td>
+    </tr>
+    <tr>
+      <th>108</th>
+      <td>Albany-Schenectady-Troy, NY Metro Area</td>
+      <td>87.7</td>
       <td>002</td>
-      <td>28140</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Kansas City, MO-KS Metro Area</td>
-      <td>94.5</td>
-      <td>003</td>
-      <td>28140</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Kansas City, MO-KS Metro Area</td>
-      <td>89.1</td>
-      <td>004</td>
-      <td>28140</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Kansas City, MO-KS Metro Area</td>
-      <td>93</td>
-      <td>400</td>
-      <td>28140</td>
+      <td>10580</td>
     </tr>
     <tr>
       <th>...</th>
@@ -165,39 +173,39 @@ df
       <td>...</td>
     </tr>
     <tr>
-      <th>2865</th>
-      <td>Detroit-Warren-Dearborn, MI Metro Area</td>
-      <td>92.2</td>
-      <td>686</td>
-      <td>19820</td>
+      <th>212</th>
+      <td>Worcester, MA-CT Metro Area</td>
+      <td>87.6</td>
+      <td>002</td>
+      <td>49340</td>
     </tr>
     <tr>
-      <th>2866</th>
-      <td>Detroit-Warren-Dearborn, MI Metro Area</td>
-      <td>96.6</td>
-      <td>760</td>
-      <td>19820</td>
+      <th>105</th>
+      <td>Worcester, MA-CT Metro Area</td>
+      <td>87.9</td>
+      <td>001</td>
+      <td>49340</td>
     </tr>
     <tr>
-      <th>2867</th>
-      <td>Detroit-Warren-Dearborn, MI Metro Area</td>
-      <td>98.7</td>
-      <td>780</td>
-      <td>19820</td>
+      <th>365</th>
+      <td>Worcester, MA-CT Metro Area</td>
+      <td>83.8</td>
+      <td>400</td>
+      <td>49340</td>
     </tr>
     <tr>
-      <th>2868</th>
-      <td>Detroit-Warren-Dearborn, MI Metro Area</td>
-      <td>94.6</td>
-      <td>810</td>
-      <td>19820</td>
+      <th>106</th>
+      <td>Youngstown-Warren-Boardman, OH-PA Metro Area</td>
+      <td>81.8</td>
+      <td>001</td>
+      <td>49660</td>
     </tr>
     <tr>
-      <th>2869</th>
-      <td>Detroit-Warren-Dearborn, MI Metro Area</td>
-      <td>88.3</td>
-      <td>840</td>
-      <td>19820</td>
+      <th>213</th>
+      <td>Youngstown-Warren-Boardman, OH-PA Metro Area</td>
+      <td>82.1</td>
+      <td>002</td>
+      <td>49660</td>
     </tr>
   </tbody>
 </table>
