@@ -69,12 +69,12 @@ The parameter ``POPGROUP`` allow querying by population groups. Here are som exa
 Many indicators are available in the survey, here is a list of the one you can find in the 2019 ACS: [https://api.census.gov/data/2019/acs/acs1/spp/variables.html](https://api.census.gov/data/2019/acs/acs1/spp/variables.html).
 Results are available for several geography levels (States, congressional district, county, metropolitan areas, etc.). Here is the list of [available geography level for the 2019 ACS](https://api.census.gov/data/2019/acs/acs1/spp/examples.html).
 
-As an example here is how to get the total population for Alameda County (code 001) in the state of California (state code 06) for the ACS 2019:
+As an example, here is how to get the **total population for Alameda County (code 001) in the state of California (state code 06)** for the ACS 2019:
 ["https://api.census.gov/data/2019/pep/population?get=NAME,POP&for=county:001&in=state:06"]("https://api.census.gov/data/2019/pep/population?get=NAME,POP&for=county:001&in=state:06")
 
 More information about codes for states, county, population groups etc. are available on the survey web page, we encourage you to search for them.
-Finally, 
 
+Finally, if you want to make many requests to the API (More than 500 queries per IP address per day), you will need to get an [API key](https://api.census.gov/data/key_signup.html) - free. The use an API key, add the parameter ``&key=`` with your api key at the end of your query.
 
 ## 2. Example of query using Python
 
