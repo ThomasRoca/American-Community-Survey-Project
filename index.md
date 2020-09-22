@@ -24,7 +24,8 @@ As put by the U.S. Census Bureau, "the American Community Survey (ACS) is an ong
 
 ## 1. American Community Survey API endpoint
 An endpoint is simply the url of the API. It contains the necessary information for the database to respond with the exact data points user want.
-Let's take an example
+Let's take an example: 
+
 [https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_246E&POPGROUP=012&for=state:*](https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_246E&for=state:*)
 
 ## 2. Example of query using Python
