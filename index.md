@@ -33,7 +33,7 @@ Let's take an example:
 And now we can define our parameters: 
   - indicator NAME - i.e. code : ``S0201_308E`` (which correspond to *COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription*)
   - geography all states: ``state:*``
-Note that between each parameter the ``&`` parameter is added. We can also use ``,`` to add several of the same entity for e.g.: ``S0201_307E,S0201_308E,S0201_246E``
+  - Note that between each parameter the ``&`` parameter is added. We can also use ``,`` to add several of the same entity for e.g.: ``S0201_307E,S0201_308E,S0201_246E``
 
 
 ## 2. Example of query using Python
