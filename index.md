@@ -83,27 +83,43 @@ To use an API key, just add the parameter ``&key=``  - followed by your api key 
 import pandas as pd
 import requests
 import json
-
+        
 # API given by US census bureau
-api_key="`xxxxxxxxxxxxxxxxx"
-group="S0201"
+api_key=""
+
 # For some reason even if you specify the indicator the API will still reply with all indicators in the group
-indicator="307E"
+indicator="S0201_307E"
 # example of population group (here 01 correspond to total population) see pop_group_dict in section 1.3 for all groups
 popgroup="001"
 
 # here is the geography level : Metropolitan statistical area and micropolitan area
 # reference: https://www.census.gov/programs-surveys/metro-micro/about.html
-geo="metropolitan%20statistical%20area/micropolitan%20statistical%20area"
+geo="metropolitan%20statistical%20area/micropolitan%20statistical%20area:*"
 
 # endpoint of the API
-url="https://api.census.gov/data/2018/acs/acs1/spp?get="+indicator+",group("+group+")&for="+geo+"&POPGROUP="+popgroup+"&key="+api_key
+url="https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,"+indicator+"&for="+geo+"&POPGROUP="+popgroup+"&key="+api_key
 print(url)
 
 response = requests.get(url)
 data = json.loads(response.text)
-```
 
+# Save a Pandas DataFrame
+pd.DataFrame(data[1:], columns=data[0])
+```
+https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_307E&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&POPGROUP=001&key=
+NAME	S0201_307E	POPGROUP	metropolitan statistical area/micropolitan statistical area
+0	Kansas City, MO-KS Metro Area	93.8	001	28140
+1	Jackson, MS Metro Area	90.2	001	27140
+2	Jacksonville, FL Metro Area	94.2	001	27260
+3	Durham-Chapel Hill, NC Metro Area	93.7	001	20500
+4	El Paso, TX Metro Area	89.8	001	21340
+...	...	...	...	...
+102	Dayton, OH Metro Area	91	001	19380
+103	Deltona-Daytona Beach-Ormond Beach, FL Metro Area	92.6	001	19660
+104	Denver-Aurora-Lakewood, CO Metro Area	95.4	001	19740
+105	Des Moines-West Des Moines, IA Metro Area	93.9	001	19780
+106	Detroit-Warren-Dearborn, MI Metro Area	91.6	001	19820
+107 rows × 4 columns
 
 ### i. Data-visualization with Matplotlib
 
