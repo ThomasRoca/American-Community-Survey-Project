@@ -74,7 +74,8 @@ As an example, here is how to get the **total population for Alameda County (cod
 
 More information about codes for states, county, population groups etc. are available on the survey web page, we encourage you to search for them.
 
-Finally, if you want to make many requests to the API (More than 500 queries per IP address per day), you will need to get an [API key](https://api.census.gov/data/key_signup.html) - free. The use an API key, add the parameter ``&key=`` with your api key at the end of your query.
+Finally, if you want to make many requests to the API (More than 500 queries per IP address per day), you will need to get an [API key](https://api.census.gov/data/key_signup.html) - free. 
+To use an API key, just add the parameter ``&key=``  - followed by your api key -  at the end of your query.
 
 ## 2. Example of query using Python
 
