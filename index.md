@@ -1,4 +1,4 @@
-![]("https://3ct13547mfyd2vpy663a50bz-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/blue-wave-header.jpg")
+![](https://3ct13547mfyd2vpy663a50bz-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/blue-wave-header.jpg)
 <small><i>Image author: **Ted Eytan**, Creative Common Licence</i> [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)</small>
 
 ## About this tutorial
