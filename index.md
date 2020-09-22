@@ -70,7 +70,7 @@ Many indicators are available in the survey, here is a list of the one you can f
 Results are available for several geography levels (States, congressional district, county, metropolitan areas, etc.). Here is the list of [available geography level for the 2019 ACS](https://api.census.gov/data/2019/acs/acs1/spp/examples.html).
 
 As an example here is how to get the total population for Alameda County (code 001) in the state of California (state code 06) for the ACS 2019:
-["https://api.census.gov/data/2019/pep/population?get=NAME,POP&for=county:001&in=state:06"](http://api.census.gov/data/2010/sf1?get=P0010001,NAME&for=county:001& in=state:06)
+["https://api.census.gov/data/2019/pep/population?get=NAME,POP&for=county:001&in=state:06"]("https://api.census.gov/data/2019/pep/population?get=NAME,POP&for=county:001&in=state:06")
 
 More information about codes for states, county, population groups etc. are available on the survey web page, we encourage you to search for them.
 Finally, 
