@@ -29,6 +29,7 @@ Let's take an example:
 [https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_308E&for=state:*](https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_308E&for=state:*)
 
 The API will respond an array of arrays like this - nb. we truncated the response to save space: 
+
   <code>[["NAME","S0201_308E","state"],</code><br>
   <code>["Minnesota","86.8","27"],</code><br>
   <code>["Mississippi","76.3","28"],</code><br>
@@ -41,6 +42,8 @@ The API will respond an array of arrays like this - nb. we truncated the respons
   <code>["Kentucky","81.7","21"],</code><br>
   <code>["Louisiana","78.1","22"],</code><br>
   <code>["Michigan","84.1","26"]]</code><br>
+  
+
 The first element of an array is the geography NAME (here names of the States), the second is the value of the requested indicator (here S0201_308E which is the code for household with a broaband internet subscription), finaly the last element is the State code used by the census bureau.
 
 - Here is the API endpoint: ``https://api.census.gov/``  - NB. it has no parameter.
