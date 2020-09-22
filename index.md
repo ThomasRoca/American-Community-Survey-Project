@@ -107,19 +107,114 @@ data = json.loads(response.text)
 pd.DataFrame(data[1:], columns=data[0])
 ```
 https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_307E&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&POPGROUP=001&key=
-NAME	S0201_307E	POPGROUP	metropolitan statistical area/micropolitan statistical area
-0	Kansas City, MO-KS Metro Area	93.8	001	28140
-1	Jackson, MS Metro Area	90.2	001	27140
-2	Jacksonville, FL Metro Area	94.2	001	27260
-3	Durham-Chapel Hill, NC Metro Area	93.7	001	20500
-4	El Paso, TX Metro Area	89.8	001	21340
-...	...	...	...	...
-102	Dayton, OH Metro Area	91	001	19380
-103	Deltona-Daytona Beach-Ormond Beach, FL Metro Area	92.6	001	19660
-104	Denver-Aurora-Lakewood, CO Metro Area	95.4	001	19740
-105	Des Moines-West Des Moines, IA Metro Area	93.9	001	19780
-106	Detroit-Warren-Dearborn, MI Metro Area	91.6	001	19820
-107 rows × 4 columns
+
+<div class="output_subarea output_html rendered_html output_result"><div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>NAME</th>
+      <th>S0201_307E</th>
+      <th>POPGROUP</th>
+      <th>metropolitan statistical area/micropolitan statistical area</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Kansas City, MO-KS Metro Area</td>
+      <td>93.8</td>
+      <td>001</td>
+      <td>28140</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Jackson, MS Metro Area</td>
+      <td>90.2</td>
+      <td>001</td>
+      <td>27140</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Jacksonville, FL Metro Area</td>
+      <td>94.2</td>
+      <td>001</td>
+      <td>27260</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Durham-Chapel Hill, NC Metro Area</td>
+      <td>93.7</td>
+      <td>001</td>
+      <td>20500</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>El Paso, TX Metro Area</td>
+      <td>89.8</td>
+      <td>001</td>
+      <td>21340</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>102</th>
+      <td>Dayton, OH Metro Area</td>
+      <td>91</td>
+      <td>001</td>
+      <td>19380</td>
+    </tr>
+    <tr>
+      <th>103</th>
+      <td>Deltona-Daytona Beach-Ormond Beach, FL Metro Area</td>
+      <td>92.6</td>
+      <td>001</td>
+      <td>19660</td>
+    </tr>
+    <tr>
+      <th>104</th>
+      <td>Denver-Aurora-Lakewood, CO Metro Area</td>
+      <td>95.4</td>
+      <td>001</td>
+      <td>19740</td>
+    </tr>
+    <tr>
+      <th>105</th>
+      <td>Des Moines-West Des Moines, IA Metro Area</td>
+      <td>93.9</td>
+      <td>001</td>
+      <td>19780</td>
+    </tr>
+    <tr>
+      <th>106</th>
+      <td>Detroit-Warren-Dearborn, MI Metro Area</td>
+      <td>91.6</td>
+      <td>001</td>
+      <td>19820</td>
+    </tr>
+  </tbody>
+</table>
+<p>107 rows × 4 columns</p>
+</div></div>
+
 
 ### i. Data-visualization with Matplotlib
 
