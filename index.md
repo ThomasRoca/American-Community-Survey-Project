@@ -79,7 +79,8 @@ To use an API key, just add the parameter ``&key=``  - followed by your api key 
 
 ## 2. Example of query using Python
 
-``import pandas as pd
+``python 
+import pandas as pd
 import requests
 import json
 
@@ -100,7 +101,8 @@ url="https://api.census.gov/data/2018/acs/acs1/spp?get="+indicator+",group("+gro
 print(url)
 
 response = requests.get(url)
-data = json.loads(response.text)``
+data = json.loads(response.text)
+``
 
 
 ### i. Data-visualization with Matplotlib
