@@ -1,6 +1,3 @@
-<small>Author: **Thomas Roca**, Senior Data-Scientist **@Microsoft** - Data Science and Analytics Team</small>
-<br>
-<br>
 ![](https://3ct13547mfyd2vpy663a50bz-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/blue-wave-header.jpg")
 <small>Image source: **Ted Eytan**. Licence: Creative Common</small>
 
