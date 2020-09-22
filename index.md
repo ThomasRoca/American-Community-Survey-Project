@@ -280,10 +280,10 @@ plt.bar(y_pos, broadband_home, align='center', alpha=0.6)
 plt.xticks(y_pos, pop_groups)
 plt.ylabel('% household with broadband subscription at home')
 plt.title('Broadband home by population Groups in Seattle-Tacoma-Bellevue, WA Metro Area ')
-
+plt.ylim(75,100)
 plt.show()
 ```
-<img src="https://raw.githubusercontent.com/ThomasRoca/American-Community-Survey-Project/gh-pages/assets/img/broadband_plot.png" width="85%">
+<img src="https://raw.githubusercontent.com/ThomasRoca/American-Community-Survey-Project/gh-pages/assets/img/broadband_subscription_plot.png" width="80%">
 
 
 ### ii. Data visualization using Microsoft PowerBI
