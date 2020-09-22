@@ -281,6 +281,7 @@ plt.title('Broadband home by population Groups in Seattle-Tacoma-Bellevue, WA Me
 
 plt.show()
 ```
+<br>
 <img src="https://raw.githubusercontent.com/ThomasRoca/American-Community-Survey-Project/gh-pages/assets/img/broadband_plot.png" width="60%">
 
 
