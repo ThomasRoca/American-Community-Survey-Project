@@ -115,6 +115,8 @@ df['S0201_308E']=df['S0201_308E'].astype(float)
 
 #save as csv
 df.to_csv('ACS_broadband.csv')
+
+#display table sorted by metro area
 df.sort_values(["NAME"])
 ```
 [https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_307E&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&POPGROUP=*&key=](https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_307E&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&POPGROUP=*&key=)
@@ -209,7 +211,7 @@ df.sort_values(["NAME"])
     </tr>
   </tbody>
 </table>
-
+<br>
 
 ### i. Data-visualization with Matplotlib
 
