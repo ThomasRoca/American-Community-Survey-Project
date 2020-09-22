@@ -79,6 +79,30 @@ To use an API key, just add the parameter ``&key=``  - followed by your api key 
 
 ## 2. Example of query using Python
 
+``import pandas as pd
+import requests
+import json
+
+# API given by US census bureau
+api_key="`xxxxxxxxxxxxxxxxx"
+group="S0201"
+# For some reason even if you specify the indicator the API will still reply with all indicators in the group
+indicator="307E"
+# example of population group (here 01 correspond to total population) see pop_group_dict in section 1.3 for all groups
+popgroup="001"
+
+# here is the geography level : Metropolitan statistical area and micropolitan area
+# reference: https://www.census.gov/programs-surveys/metro-micro/about.html
+geo="metropolitan%20statistical%20area/micropolitan%20statistical%20area"
+
+# endpoint of the API
+url="https://api.census.gov/data/2018/acs/acs1/spp?get="+indicator+",group("+group+")&for="+geo+"&POPGROUP="+popgroup+"&key="+api_key
+print(url)
+
+response = requests.get(url)
+data = json.loads(response.text)``
+
+
 ### i. Data-visualization with Matplotlib
 
 ### ii. Data visualization using Microsoft PowerBI
