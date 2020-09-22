@@ -79,7 +79,7 @@ To use an API key, just add the parameter ``&key=``  - followed by your api key 
 
 ## 2. Example of query using Python
 
-``python 
+```python 
 import pandas as pd
 import requests
 import json
@@ -102,7 +102,7 @@ print(url)
 
 response = requests.get(url)
 data = json.loads(response.text)
-``
+```
 
 
 ### i. Data-visualization with Matplotlib
