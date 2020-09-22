@@ -19,6 +19,7 @@ As put by the U.S. Census Bureau, "the American Community Survey (ACS) is an ong
 - [ACS API Handbook]( https://www.census.gov/content/dam/Census/library/publications/2020/acs/acs_api_handbook_2020.pdf), 2020, U.S. Census Bureau
 - [Using the Census API with the American Community Survey](https://www.census.gov/data/academy/webinars/2019/api-acs.html)
 - [Developper section of the American Community Survey web page](https://www.census.gov/data/developers.html)
+- [Census Bureau API key registration page](https://api.census.gov/data/key_signup.html)
 
 
 ## 1. ACS API endpoint
