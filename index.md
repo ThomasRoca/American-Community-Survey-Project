@@ -203,6 +203,70 @@ df
 
 ### i. Data-visualization with Matplotlib
 
+**Let's dig into Seattle-Tacoma-Bellevue metro area**
+```python
+# let's get data for Seattle-Tacoma-Bellevue metro area
+Seattle=df.loc[df["NAME"]=="Seattle-Tacoma-Bellevue, WA Metro Area"].copy()
+
+# code and label for population group 
+pop_group_dict= {"001":"Total population", 
+                 "002": "White alone", 
+                 "400": "Hispanic or Latino",
+                 "004": "Black or African American"}
+
+Seattle["Population group"]=Seattle["POPGROUP"].map(pop_group_dict)
+Seattle=Seattle.sort_values("S0201_308E")
+Seattle
+```
+
+<table border="0" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>NAME</th>
+      <th>S0201_308E</th>
+      <th>POPGROUP</th>
+      <th>metropolitan statistical area/micropolitan statistical area</th>
+      <th>Population group</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>280</th>
+      <td>Seattle-Tacoma-Bellevue, WA Metro Area</td>
+      <td>85.4</td>
+      <td>004</td>
+      <td>42660</td>
+      <td>Black or African American</td>
+    </tr>
+    <tr>
+      <th>342</th>
+      <td>Seattle-Tacoma-Bellevue, WA Metro Area</td>
+      <td>90.4</td>
+      <td>400</td>
+      <td>42660</td>
+      <td>Hispanic or Latino</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>Seattle-Tacoma-Bellevue, WA Metro Area</td>
+      <td>91.7</td>
+      <td>001</td>
+      <td>42660</td>
+      <td>Total population</td>
+    </tr>
+    <tr>
+      <th>198</th>
+      <td>Seattle-Tacoma-Bellevue, WA Metro Area</td>
+      <td>92.1</td>
+      <td>002</td>
+      <td>42660</td>
+      <td>White alone</td>
+    </tr>
+  </tbody>
+</table>
+
+
 ### ii. Data visualization using Microsoft PowerBI
 
 ## 3. Example of query using JavaScript
