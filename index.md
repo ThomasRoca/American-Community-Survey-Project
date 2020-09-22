@@ -268,6 +268,8 @@ Seattle
 
 <br>
 
+**Now we have the subset for Seattle-Tacoma-Bellevue metro area, we can draw a bar chart with matplotlib**
+
 ```python
 import matplotlib.pyplot as plt; plt.rcdefaults()
 import numpy as np
