@@ -52,10 +52,27 @@ Let's look at **url parameters in details**:
 - In this example we request the 2018 ACS survey: ``data/2018/acs/acs1/``<br>
 
 And now we can define our parameters (using ``spp?get=`` as a prefix): 
-  - ``NAME`` will allow us to have the actual name of the geography displayed on the top of the geography code.
-  - indicator code : ``S0201_308E`` (which correspond to *COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription*)
-  - geography: all states ``state:*`` (Note that ``:*`` stands for "all" in "all states" )
+  - ``NAME`` will allow us to have the actual **name of the geography** displayed on the top of the geography code.
+  - **indicator code** : ``S0201_308E`` (which correspond to *COMPUTERS AND INTERNET USE!!Total households!!With a broadband Internet subscription*)
+  - **geography**: all states ``state:*`` (Note that ``:*`` stands for "all" in "all states" )
   - Note that between each parameter the ``&`` parameter is added. We can also use ``,`` to add several of the same entity for e.g.: ``S0201_307E,S0201_308E,S0201_246E``
+
+In this tutorial we want to take advantage of the detailed data for population group ("Black and African American, White, Hispanic or Latino", etc.). 
+The parameter ``POPGROUP`` allow querying by population groups. Here are som examples of code of population groups :
+- "001": "Total population"
+- "002": "White alone"
+- "400": "Hispanic or Latino (of any race) (200-299)"
+- "004": "Black or African American alone"
+- "012": "Asian alone (400-499)"<br>
+*More info about available population groups ("Race/Ethnic Group"): [here](https://api.census.gov/data/2019/acs/acs1/spp/variables/POPGROUP.json)*
+
+Many indicators are available in the survey, here is a list of the one you can find in the 2019 ACS: https://api.census.gov/data/2019/acs/acs1/spp/variables.html
+
+
+
+
+To construct your own request and get more information about all parameters available for the API take a look at these resources: 
+- 
 
 
 ## 2. Example of query using Python
