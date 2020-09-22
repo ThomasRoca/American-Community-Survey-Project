@@ -300,6 +300,10 @@ plt.show()
 
 ### ii. Data visualization using Microsoft PowerBI
 
+As another example of visualization, we showcase below what can be easily achieved by less advanced coders using Microsoft PowerBI. It allows to build dahsboard in minutes when you would need hours or days to code it from scratch. We used the same indicator we requested from the API in python. The CSV file is store in this GitHub repo and accessible [here](https://github.com/ThomasRoca/American-Community-Survey-Project/blob/master/ACS_broadband.csv). Note that the data source the PowerBi visualization below uses is the one hosted in this repo as PowerBI can connect to remote data sources.
+
+<iframe width="600" height="373.5" src="https://msit.powerbi.com/view?r=eyJrIjoiOTRkNzc2OGQtN2ExYi00NDgyLTk1ZTQtYTY3YTNmNTMyYThlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
+
 ## 3. Example of query using JavaScript
 
 ### i. Simple visualization with d3.js
