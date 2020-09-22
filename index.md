@@ -29,6 +29,7 @@ Let's take an example:
 [https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_308E&for=state:*](https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_308E&for=state:*)
 
 The API will respond this (we truncated the response to save space here): 
+
   ``
   [["NAME","S0201_308E","state"],
   ["Minnesota","86.8","27"],
