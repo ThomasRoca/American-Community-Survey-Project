@@ -31,18 +31,18 @@ Let's take an example:
 The API will respond this (we truncated the response to save space here): 
 
   ``
-  [["NAME","S0201_308E","state"],
-  ["Minnesota","86.8","27"],
-  ["Mississippi","76.3","28"],
-  ["Missouri","82.9","29"],
-  ["Montana","83.6","30"],
-  ["Nebraska","85.7","31"],
-  ["Nevada","85.9","32"],
-  ["New Hampshire","89.1","33"],
-  ...
-  ["Kentucky","81.7","21"],
-  ["Louisiana","78.1","22"],
-  ["Michigan","84.1","26"]]
+  [["NAME","S0201_308E","state"],  
+  ["Minnesota","86.8","27"],  
+  ["Mississippi","76.3","28"],  
+  ["Missouri","82.9","29"],  
+  ["Montana","83.6","30"],  
+  ["Nebraska","85.7","31"],  
+  ["Nevada","85.9","32"],  
+  ["New Hampshire","89.1","33"],  
+  ...  
+  ["Kentucky","81.7","21"],  
+  ["Louisiana","78.1","22"],  
+  ["Michigan","84.1","26"]]  
 ``
 
 - Here is the API endpoint: ``https://api.census.gov/``  - NB. it has no parameter.
