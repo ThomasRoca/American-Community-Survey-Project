@@ -87,10 +87,11 @@ import json
 # API given by US census bureau
 api_key=""
 
-# For some reason even if you specify the indicator the API will still reply with all indicators in the group
+# here we chose "Total households with a computer which code is S0201_307E
 indicator="S0201_307E"
-# example of population group (here 01 correspond to total population) see pop_group_dict in section 1.3 for all groups
-popgroup="001"
+
+# we want all available population groups
+popgroup="*"
 
 # here is the geography level : Metropolitan statistical area and micropolitan area
 # reference: https://www.census.gov/programs-surveys/metro-micro/about.html
@@ -103,10 +104,10 @@ print(url)
 response = requests.get(url)
 data = json.loads(response.text)
 
-# Save a Pandas DataFrame
+# display as a Pandas DataFrame
 pd.DataFrame(data[1:], columns=data[0])
 ```
-https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_307E&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&POPGROUP=001&key=
+https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_307E&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&POPGROUP=*&key=
 
 <table border="0" class="dataframe">
   <thead>
@@ -128,31 +129,31 @@ https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_307E&for=metropolit
     </tr>
     <tr>
       <th>1</th>
-      <td>Jackson, MS Metro Area</td>
-      <td>90.2</td>
-      <td>001</td>
-      <td>27140</td>
+      <td>Kansas City, MO-KS Metro Area</td>
+      <td>94.5</td>
+      <td>002</td>
+      <td>28140</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>Jacksonville, FL Metro Area</td>
-      <td>94.2</td>
-      <td>001</td>
-      <td>27260</td>
+      <td>Kansas City, MO-KS Metro Area</td>
+      <td>94.5</td>
+      <td>003</td>
+      <td>28140</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>Durham-Chapel Hill, NC Metro Area</td>
-      <td>93.7</td>
-      <td>001</td>
-      <td>20500</td>
+      <td>Kansas City, MO-KS Metro Area</td>
+      <td>89.1</td>
+      <td>004</td>
+      <td>28140</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>El Paso, TX Metro Area</td>
-      <td>89.8</td>
-      <td>001</td>
-      <td>21340</td>
+      <td>Kansas City, MO-KS Metro Area</td>
+      <td>93</td>
+      <td>400</td>
+      <td>28140</td>
     </tr>
     <tr>
       <th>...</th>
@@ -162,38 +163,38 @@ https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_307E&for=metropolit
       <td>...</td>
     </tr>
     <tr>
-      <th>102</th>
-      <td>Dayton, OH Metro Area</td>
-      <td>91</td>
-      <td>001</td>
-      <td>19380</td>
-    </tr>
-    <tr>
-      <th>103</th>
-      <td>Deltona-Daytona Beach-Ormond Beach, FL Metro Area</td>
-      <td>92.6</td>
-      <td>001</td>
-      <td>19660</td>
-    </tr>
-    <tr>
-      <th>104</th>
-      <td>Denver-Aurora-Lakewood, CO Metro Area</td>
-      <td>95.4</td>
-      <td>001</td>
-      <td>19740</td>
-    </tr>
-    <tr>
-      <th>105</th>
-      <td>Des Moines-West Des Moines, IA Metro Area</td>
-      <td>93.9</td>
-      <td>001</td>
-      <td>19780</td>
-    </tr>
-    <tr>
-      <th>106</th>
+      <th>2865</th>
       <td>Detroit-Warren-Dearborn, MI Metro Area</td>
-      <td>91.6</td>
-      <td>001</td>
+      <td>92.2</td>
+      <td>686</td>
+      <td>19820</td>
+    </tr>
+    <tr>
+      <th>2866</th>
+      <td>Detroit-Warren-Dearborn, MI Metro Area</td>
+      <td>96.6</td>
+      <td>760</td>
+      <td>19820</td>
+    </tr>
+    <tr>
+      <th>2867</th>
+      <td>Detroit-Warren-Dearborn, MI Metro Area</td>
+      <td>98.7</td>
+      <td>780</td>
+      <td>19820</td>
+    </tr>
+    <tr>
+      <th>2868</th>
+      <td>Detroit-Warren-Dearborn, MI Metro Area</td>
+      <td>94.6</td>
+      <td>810</td>
+      <td>19820</td>
+    </tr>
+    <tr>
+      <th>2869</th>
+      <td>Detroit-Warren-Dearborn, MI Metro Area</td>
+      <td>88.3</td>
+      <td>840</td>
       <td>19820</td>
     </tr>
   </tbody>
