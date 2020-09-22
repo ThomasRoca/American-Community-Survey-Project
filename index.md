@@ -107,6 +107,7 @@ data = json.loads(response.text)
 pd.DataFrame(data[1:], columns=data[0])
 ```
 https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_307E&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&POPGROUP=001&key=
+
 <table border="0" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -197,9 +198,6 @@ https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_307E&for=metropolit
     </tr>
   </tbody>
 </table>
-<p>107 rows × 4 columns</p>
-</div></div>
-
 
 ### i. Data-visualization with Matplotlib
 
