@@ -358,6 +358,7 @@ Here is a simple example of bar chart rendering the API query
 <iframe width="100%" height="300" src="https://jsfiddle.net/ThomasRoca/cmr4j1h7/embedded/result,js,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 
+
 ### ii. Your first application using Highcharts
 
 <iframe width="100%" height="575px" src="https://jsfiddle.net/ThomasRoca/xfhsgc5w/embedded/result,js,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
