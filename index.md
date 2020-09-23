@@ -67,7 +67,7 @@ The parameter ``POPGROUP`` allow querying by population groups. Here are som exa
 - *More info about available population groups ("Race/Ethnic Group"): [here](https://api.census.gov/data/2019/acs/acs1/spp/variables/POPGROUP.json)*
 
 Many indicators are available in the survey, here is a list of the one you can find in the 2019 ACS: [https://api.census.gov/data/2019/acs/acs1/spp/variables.html](https://api.census.gov/data/2019/acs/acs1/spp/variables.html).
-Results are available for several geography levels (States, congressional district, county, metropolitan areas, etc.). Here is the list of [available geography level for the 2019 ACS](https://api.census.gov/data/2019/acs/acs1/spp/examples.html). To make it easier, you will find the metropolitan area available with their codes [here](https://raw.githubusercontent.com/ThomasRoca/American-Community-Survey-Project/master/Metropolitan_area_code.json)
+Results are available for several geography levels (States, congressional district, county, metropolitan areas, etc.). Here is the list of [available geography level for the 2019 ACS](https://api.census.gov/data/2019/acs/acs1/spp/examples.html). To make it easier, you will find the metropolitan areas available with their codes [here.](https://raw.githubusercontent.com/ThomasRoca/American-Community-Survey-Project/master/Metropolitan_area_code.json)
 
 As an example, here is how to get the **total population for Alameda County (code 001) in the state of California (state code 06)** for the ACS 2019:
 [https://api.census.gov/data/2019/pep/population?get=NAME,POP&for=county:001&in=state:06](https://api.census.gov/data/2019/pep/population?get=NAME,POP&for=county:001&in=state:06)
@@ -307,8 +307,14 @@ As another example of visualization, we showcase below what can be easily achiev
 <br>
 
 ## 3. Example of query using JavaScript
+Let's continue our journey with JavaScript. If you want to build a web application the standard way is to use JavaScript and HTML/CSS. I will start with a simple query
+asking the API for poverty rate (code: ``S0201_255E``) for "New York-Newark-Jersey City, NY-NJ-PA Metro Area" which code is ``35620`` (see [full list](https://github.com/ThomasRoca/American-Community-Survey-Project/blob/master/Metropolitan_area_code.json)) for ``Total population`` - code ``001`` - and for ``Black or African American`` - code ``004`` : 
 
+``` Javascript
 
+url="https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_246E&POPGROUP=001&POPGROUP=004&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:35620"
+
+```
 
 ### i. Simple visualization with d3.js
 
