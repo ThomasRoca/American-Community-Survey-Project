@@ -323,7 +323,7 @@ We end up with an array of 3 arrays. The first one provides the meta data, the s
 
 To retrieve and store this information in variables, we can use those elements' index - NB. index starts with 0 not 1. Array[0] will be the 1st array containing the meta data ``["NAME","S0201_246E","POPGROUP","metropolitan statistical area/micropolitan statistical area"]`` and array[0][0] will be its 1st element if this first array,  i.e. ``NAME``.
 
-To find the value of the poverty rate for total population (nb. population code "001") you must dig into the 2nd array (i.e.[1]) and get its 3rd item ([2]): array[1][2] is the spot where poverty rate for total population is stored. 
+To find the value of the poverty rate for total population (nb. population code "001") you must dig into the 2nd array (i.e.[1]) and get its 2nd item ([1]): array[1][1] is the spot where poverty rate for total population is stored. 
 
 Let's display this information on a web page using JavaScript:
 
