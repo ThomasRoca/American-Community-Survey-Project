@@ -325,7 +325,7 @@ To retrieve and store this information in variables, we can use those elements' 
 
 To find the value of the poverty rate for total population (nb. population code "001") you must dig into the 2nd array (i.e.[1]) and get its 2nd item ([1]): array[1][1] is the spot where poverty rate for total population is stored. 
 
-Let's display this information on a web page using JavaScript:
+Let's put that into practice and display this information on a web page:
 
 ``` Javascript
 $(function() {
