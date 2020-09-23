@@ -376,7 +376,7 @@ d3 stands for Data-Driven Document, [d3.js](https://d3js.org/) is an open source
 
 ### ii. Your first application using Highcharts
 
-When building a web application, what you try to achieve is to give users the freedom to choose what to display. Here, I will let the user select a metropolitan area and an indicator - NB. From a subset of those available in the survey. Those 2 parameters will be used to build the API query (i.e. the url). Finally, the job will consist in parsing the resulting data points and use them as input for the chart - here [Highchart](https://www.highcharts.com/)'s [Basic column chart](https://www.highcharts.com/demo/column-basic). 
+When building a web application, what you try to achieve is to give users the freedom to choose what to display. Here, I will let the user select a metropolitan area and an indicator. Those 2 parameters will be used to build the API query (i.e. the url). Finally, the job will consist in parsing the resulting data points and use them as input for the chart - here [Highchart](https://www.highcharts.com/)'s [Basic column chart](https://www.highcharts.com/demo/column-basic). 
 In this example I use a dictionnary to store the values associated with their categories (i.e. population groups). I commented the code in the JavaScript tab of the JSfiddle below.
 
 <iframe width="100%" height="575px" src="https://jsfiddle.net/ThomasRoca/t8d2v4p9/embedded/result,js,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
