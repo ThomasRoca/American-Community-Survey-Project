@@ -310,14 +310,14 @@ As another example of visualization, we showcase below what can be easily achiev
 
 ## 3. Example of query using JavaScript
 Let's continue our journey with JavaScript. If you want to build a web application the standard way is to use JavaScript and HTML/CSS. I will start with a simple query
-asking the API for poverty rate (code: ``S0201_255E``) for "New York-Newark-Jersey City, NY-NJ-PA Metro Area" which code is ``35620`` (see [full list](https://github.com/ThomasRoca/American-Community-Survey-Project/blob/master/Metropolitan_area_code.json)) for ``Total population`` - code ``001`` - and for ``Black or African American`` - code ``004`` : 
+asking the API for poverty rate (code: ``S0201_255E``) for "New York-Newark-Jersey City, NY-NJ-PA Metro Area" which code is ``35620`` (see [full list](https://github.com/ThomasRoca/American-Community-Survey-Project/blob/master/Metropolitan_area_code.json)) for ``Total population`` (code ``001``) AND for ``Black or African American`` (code ``004``) : 
 
-Here is the query url: [https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_246E&POPGROUP=001&POPGROUP=004&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:35620](https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_246E&POPGROUP=001&POPGROUP=004&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:35620)
+Here is our new query: [https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_246E&POPGROUP=001&POPGROUP=004&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:35620](https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_246E&POPGROUP=001&POPGROUP=004&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:35620)
 
 The API response is now: 
-<code>[["NAME","S0201_246E","POPGROUP","metropolitan statistical area/micropolitan statistical area"],</code>
-<code>["New York-Newark-Jersey City, NY-NJ-PA Metro Area","9.4","001","35620"],</code>
-<code>["New York-Newark-Jersey City, NY-NJ-PA Metro Area","15.1","004","35620"]]</code>
+<code>[["NAME","S0201_246E","POPGROUP","metropolitan statistical area/micropolitan statistical area"],</code><br>
+<code>["New York-Newark-Jersey City, NY-NJ-PA Metro Area","9.4","001","35620"],</code><br>
+<code>["New York-Newark-Jersey City, NY-NJ-PA Metro Area","15.1","004","35620"]]</code><br>
 
 We end up with an array of 3 arrays. The first one provides the meta data, the second one give poverty rate for total population (i.e. 9.4%) and the third one for Black and African American (15,1%). To get this information in a variable we will use the index of those elements - NB. index starts with 0 not 1. Array[0] will be the 1st array containing the meta data ``["NAME","S0201_246E","POPGROUP","metropolitan statistical area/micropolitan statistical area"]`` and array[0][0] will be its 1st element ``NAME``.
 In order to get poverty rate for total population you would need array[1][2]
