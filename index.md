@@ -319,7 +319,7 @@ The API response is now: <br>
 <code>["New York-Newark-Jersey City, NY-NJ-PA Metro Area","9.4","001","35620"],</code><br>
 <code>["New York-Newark-Jersey City, NY-NJ-PA Metro Area","15.1","004","35620"]]</code><br>
 
-We end up with an array of 3 arrays. The first one provides the meta data, the second one gives poverty rate for total population (i.e. 9.4%) and the third one for Black and African American (15,1%).
+We end up with an array of 3 arrays. The first one provides the meta data, the second one gives poverty rate for total population (i.e. 9.4%) and the third one for Black or African American (15,1%).
 
 To retrieve and store this information in variables, we can use those elements' index - NB. index starts with 0 not 1. Array[0] will be the 1st array containing the meta data ``["NAME","S0201_246E","POPGROUP","metropolitan statistical area/micropolitan statistical area"]`` and array[0][0] will be its 1st element if this first array,  i.e. ``NAME``.
 
@@ -345,7 +345,7 @@ $(function() {
       // let's add some text to be displayed on the web page
       metro_text = "<b>Poverty rate in </b>" + metro
       total_text = "<b>Total population: </b>" + value_total
-      black_african_american_text = "<b>Black and African American: </b>" + value_b
+      black_african_american_text = "<b>Black or African American: </b>" + value_b
       
       // let's send this text to the actual web page
       document.getElementById("metropolitan").innerHTML = metro_text;
