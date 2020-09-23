@@ -85,6 +85,7 @@ To use your API key, just add the parameter ``&key=``  - followed by your api ke
 ## 2. Example of query using Python
 
 You now have a better understanding of the way the *American Community Survey's* API works. Let's put this into practice writting some code in Python.
+
 In the following script I'll query the API, store the data into a [Pandas](https://pandas.pydata.org/) dataframe and finally present some findings in a bar chart using [Matplotlib](https://matplotlib.org/). NB. The code is commented so that non-coder can follow the steps.
 
 ```python 
