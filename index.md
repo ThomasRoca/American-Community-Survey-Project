@@ -348,7 +348,7 @@ $(function() {
 ```
 
 Complete code and results on JSfiddle: 
-<iframe width="100%" height="575px" src="https://jsfiddle.net/ThomasRoca/jzq9f7uv/embed/result,js,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="500px" src="https://jsfiddle.net/ThomasRoca/jzq9f7uv/embedded/result,js,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### i. Simple visualization with d3.js
 
