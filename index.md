@@ -67,7 +67,7 @@ The parameter ``POPGROUP`` allow querying by population groups. Here are som exa
 - *More info about available population groups ("Race/Ethnic Group"): [here](https://api.census.gov/data/2019/acs/acs1/spp/variables/POPGROUP.json)*
 
 Many indicators are available in the survey, here is a list of the one you can find in the 2019 ACS: [https://api.census.gov/data/2019/acs/acs1/spp/variables.html](https://api.census.gov/data/2019/acs/acs1/spp/variables.html).
-Results are available for several geography levels (States, congressional district, county, metropolitan areas, etc.). Here is the list of [available geography level for the 2019 ACS](https://api.census.gov/data/2019/acs/acs1/spp/examples.html).
+Results are available for several geography levels (States, congressional district, county, metropolitan areas, etc.). Here is the list of [available geography level for the 2019 ACS](https://api.census.gov/data/2019/acs/acs1/spp/examples.html). To make it easier, you will find the metropolitan area available with their codes [here](https://raw.githubusercontent.com/ThomasRoca/American-Community-Survey-Project/master/Metropolitan_area_code.json)
 
 As an example, here is how to get the **total population for Alameda County (code 001) in the state of California (state code 06)** for the ACS 2019:
 [https://api.census.gov/data/2019/pep/population?get=NAME,POP&for=county:001&in=state:06](https://api.census.gov/data/2019/pep/population?get=NAME,POP&for=county:001&in=state:06)
@@ -304,7 +304,11 @@ As another example of visualization, we showcase below what can be easily achiev
 
 <iframe width="100%" height="500" src="https://msit.powerbi.com/view?r=eyJrIjoiOTRkNzc2OGQtN2ExYi00NDgyLTk1ZTQtYTY3YTNmNTMyYThlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
 
+<br>
+
 ## 3. Example of query using JavaScript
+
+
 
 ### i. Simple visualization with d3.js
 
