@@ -355,7 +355,7 @@ Complete code and results on JSfiddle:
 d3 stands for Data-Driven Document, [d3.js](https://d3js.org/) is an open source data visualization library. It is not the easiest to use but provide entire flexibility.
 Here is a simple example of bar chart rendering the API query
 
-<iframe width="100%" height="300" src="https://jsfiddle.net/ThomasRoca/cmr4j1h7/embedded/result,js,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="450" src="https://jsfiddle.net/ThomasRoca/cmr4j1h7/embedded/result,js,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 
 
