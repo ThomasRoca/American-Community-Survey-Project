@@ -314,7 +314,7 @@ asking the API for poverty rate (code: ``S0201_255E``) for "New York-Newark-Jers
 
 Here is our new query: [https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_246E&POPGROUP=001&POPGROUP=004&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:35620](https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_246E&POPGROUP=001&POPGROUP=004&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:35620)
 
-The API response is now: 
+The API response is now: <br>
 <code>[["NAME","S0201_246E","POPGROUP","metropolitan statistical area/micropolitan statistical area"],</code><br>
 <code>["New York-Newark-Jersey City, NY-NJ-PA Metro Area","9.4","001","35620"],</code><br>
 <code>["New York-Newark-Jersey City, NY-NJ-PA Metro Area","15.1","004","35620"]]</code><br>
