@@ -387,7 +387,7 @@ Here as well, the code is commented in the JavaScript tab of the JSfiddle below.
 
 ## Conclusion
 
-The *American Community Survey* is rich dataset which provides much insight to understand racial inequalities in the United States. Although this tutorial focuses on the technical intricacies of leveraging APIs to fish data points, I hope journalists and data-journalists will find it useful to raise awareness on the fate of Black or African American community, but also Hispanic and Latino community in the U.S.
+The *American Community Survey* is rich dataset which provides much insight to understand racial inequalities in the United States. Scrolling up and taking a closer look to those data points and chart you will get a first taste of these systemic or systematic inequalities. Although this tutorial focuses on the technical intricacies of leveraging APIs to fish data points, I hope journalists and data-journalists will find it useful to raise awareness on the fate of Black or African American community, but also Hispanic and Latino community in the U.S.
 
 Exploring this dataset, you will find out that those 2 communities are almost systematically worse-off than the average population in the U.S. whether it is about income levels, poverty rate, access to education, but also digital - devices and broadband internet. We encourage, data-journalists, data-activists, policy makers to dig into the facts and help designing more inclusive policies.
 
