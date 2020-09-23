@@ -308,7 +308,7 @@ plt.show()
 ```
 <img src="https://raw.githubusercontent.com/ThomasRoca/American-Community-Survey-Project/gh-pages/assets/img/broadband_subscription_plot.png" width="80%">
 
-The complete [Python script is available here](https://github.com/ThomasRoca/American-Community-Survey-Project/blob/master/Python%20script.py)
+The complete [Python script is available here](https://github.com/ThomasRoca/American-Community-Survey-Project/blob/master/Python%20script.py).
 
 ### ii. Data visualization using Microsoft PowerBI
 
