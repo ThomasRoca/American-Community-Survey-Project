@@ -360,6 +360,6 @@ d3 stands for Data-Driven Document, [d3.js](https://d3js.org/) is an open source
 
 ### ii. Your first application using Highcharts
 
-<iframe width="100%" height="575px" src="https://jsfiddle.net/ThomasRoca/xfhsgc5w/embedded/result,js,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="575px" src="https://jsfiddle.net/ThomasRoca/t8d2v4p9/embedded/result,js,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 <br>
 
