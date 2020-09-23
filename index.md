@@ -333,17 +333,21 @@ $(function() {
   $.ajax({
     url: "https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_246E&POPGROUP=001&POPGROUP=004&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:35620",
     complete: function(json) {
+      
       // get the API response
       data = JSON.parse(json.responseText);
+      
       // set some variable to host data:
       value_total = data[1][1]; // Poverty rate for total population
       value_b = data[2][1]; // Poverty rate for Black and African American
       metro = data[1][0]; // name of the metropolitan area
+      
       // let's add some text to be displayed on the web page
       metro_text = "<b>Poverty rate in </b>" + metro
       total_text = "<b>Total population: </b>" + value_total
       black_african_american_text = "<b>Black and African American: </b>" + value_b
-      // let's send this tex to the actual web page
+      
+      // let's send this text to the actual web page
       document.getElementById("metropolitan").innerHTML = metro_text;
       document.getElementById("total_population").innerHTML = total_text;
       document.getElementById("black_african_american").innerHTML = black_african_american_text;
