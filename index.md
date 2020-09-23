@@ -88,7 +88,7 @@ You now have a better understanding of the way the *American Community Survey's*
 
 In the following script I'll query the API, store the data into a [Pandas](https://pandas.pydata.org/) dataframe and finally present some findings in a bar chart using [Matplotlib](https://matplotlib.org/). The data point we will request is "Total households with a broadband subscription" (code ``S0201_308E``)
 
-*NB. The code is commented so that non-coders can follow step by step.*
+*NB. The code is commented so that non-coders can follow it, step by step.*
 
 ```python 
 import pandas as pd
@@ -381,4 +381,12 @@ In this example I use a dictionnary to store the values associated with their ca
 
 <iframe width="100%" height="575px" src="https://jsfiddle.net/ThomasRoca/t8d2v4p9/embedded/result,js,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 <br>
+
+## Conclusion
+
+The *American Community Survey* is rich dataset and provide much insights to understand racial inequalities in the United States. Althought this tutorial is focused on the intrecacy of using APIs to fish for data points, I hope journalists and data journalists will find it useful to raise awarness on the fate of Black or African American, but alos Hispanic and Latino community in the U.S. Exploring this dataset, you will find out that those 2 community are almost systematically worse-off than the average population in the U.S. whether it is about income levels, poverty rate, access to education, but also digital, devices and broadband internet. We encourage, data-journalists, data-activists, policy makers to dig into the facts and help designing more inclusive policies.
+
+
+
+
 
