@@ -320,7 +320,7 @@ The API response is now:
 We end up with an array of 3 arrays. The first one provides the meta data, the second one give poverty rate for total population (i.e. 9.4%) and the third one for Black and African American (15,1%). To get this information in a variable we will use the index of those elements - NB. index starts with 0 not 1. Array[0] will be the 1st array containing the meta data ``["NAME","S0201_246E","POPGROUP","metropolitan statistical area/micropolitan statistical area"]`` and array[0][0] will be its 1st element ``NAME``.
 In order to get poverty rate for total population you would need array[1][2]
 
-Let's display this information on a web page using JavaScript
+Let's display this information on a web page using JavaScript:
 
 ``` Javascript
 $(function() {
@@ -346,9 +346,8 @@ $(function() {
   })
 })
 ```
-
 Complete code and results on JSfiddle: 
-<iframe width="100%" height="500px" src="https://jsfiddle.net/ThomasRoca/jzq9f7uv/embedded/result,js,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="400px" src="https://jsfiddle.net/ThomasRoca/jzq9f7uv/embedded/result,js,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### i. Simple visualization with d3.js
 
