@@ -384,10 +384,9 @@ In this example I use a dictionnary to store the values associated with their ca
 
 ## Conclusion
 
-The *American Community Survey* is rich dataset and provide much insights to understand racial inequalities in the United States. Although this tutorial is focused on the technical intrecacy of leveraging APIs to fish data points, I hope journalists and data-journalists will find it useful to raise awarness on the fate of Black or African American community, but also Hispanic and Latino community in the U.S.
+The *American Community Survey* is rich dataset and provide much insight to understand racial inequalities in the United States. Although this tutorial focuses on the technical intricacies of leveraging APIs to fish data points, I hope journalists and data-journalists will find it useful to raise awareness on the fate of Black or African American community, but also Hispanic and Latino community in the U.S.
 
-Exploring this dataset, you will find out that those 2 community are almost systematically worse-off than the average population in the U.S. whether it is about income levels, poverty rate, access to education, but also digital, devices and broadband internet. We encourage, data-journalists, data-activists, policy makers to dig into the facts and help designing more inclusive policies.
-
+Exploring this dataset, you will find out that those 2 communities are almost systematically worse-off than the average population in the U.S. whether it is about income levels, poverty rate, access to education, but also digital - devices and broadband internet. We encourage, data-journalists, data-activists, policy makers to dig into the facts and help designing more inclusive policies.
 
 
 
