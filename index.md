@@ -4,6 +4,8 @@
 ## About this tutorial
 [Open data](https://theodi.org/article/what-is-open-data-and-why-should-we-care/) is about transparency, accountability and empowerement. By making accessible the data they collect - those data points that can be shared without harming data subjects - organizations provide information to the public but also opportunities to build systems and applications that consume data, transform it, repurpose it and eventually make it even more useful for society. Read about Microsoft [Open data Initiative](https://www.microsoft.com/en-us/open-data-initiative)
 
+Why using an API? API allows to programmatically access remote data sources. When plugging a table, a chart or a web page to remote data sources, your data point are always up to date. API are often associated with database too large to easily navigate it via a spreadsheet. If you don't want to download the entire database to access just a few datapoints, what you need is a query.You can then adapt to users' data needs by customizing the query to the database and have this information rendered the most efficient and compelling way possible.
+
 In this tutorial, I'm going to present one of the most insightful sources of data to understand racial inequality in the United States. I'll provide tips to leverage its [API](https://en.wikipedia.org/wiki/API) - i.e. way to programmatically query the database. I will also provide examples of data visualizations and simple applications we can build on the top of the database. I will provide snipets of [**Python**](https://www.python.org/) code and [**JavaScript**](https://developer.mozilla.org/en-US/docs/Web/JavaScript). I will use [**Microsoft PowerBI**](https://powerbi.microsoft.com/), [**Highcharts**](https://www.highcharts.com/) and [**d3.js**](https://d3js.org/) to visualize this information and reveal some of the insights hidden in this very rich dataset.
 
 To easily share JavaScript code, I'll use [JSfiddle](https://jsfiddle.net/). 
@@ -347,7 +349,7 @@ $(function() {
 })
 ```
 Complete code and results on JSfiddle: 
-<iframe width="100%" height="400px" src="https://jsfiddle.net/ThomasRoca/jzq9f7uv/embedded/result,js,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="450px" src="https://jsfiddle.net/ThomasRoca/jzq9f7uv/embedded/result,js,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### i. Simple visualization with d3.js
 
