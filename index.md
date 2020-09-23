@@ -352,6 +352,11 @@ Complete code and results on JSfiddle:
 <iframe width="100%" height="450px" src="https://jsfiddle.net/ThomasRoca/jzq9f7uv/embedded/result,js,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### i. Simple visualization with d3.js
+d3 stands for Data-Driven Document, [d3.js](https://d3js.org/) is an open source data visualization library. It is not the easiest to use but provide entire flexibility.
+Here is a simple example of bar chart rendering the API query
+
+<iframe width="100%" height="300" src="https://jsfiddle.net/ThomasRoca/cmr4j1h7/embedded/result,js,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 
 ### ii. Your first application using Highcharts
 
