@@ -23,8 +23,8 @@ As put by the U.S. Census Bureau, "the American Community Survey (ACS) is an ong
 - [The Open Data Institute](https://theodi.org/)
 - [Microsoft Open Data Campaign](https://blogs.microsoft.com/on-the-issues/2020/04/21/open-data-campaign-divide/)
 - Python resources: [Microsoft Introduction to python, Azure notebook](https://notebooks.azure.com/Microsoft/projects/2018-Intro-Python/html/Introduction%20to%20Python.ipynb)
-- JavaScript resources: [W3 scholls JavaScript tutorial](https://www.w3schools.com/js/DEFAULT.asp)
-- HTML resources: [W3 scholls HTML tutorial](https://www.w3schools.com/html/)
+- JavaScript resources: [W3 schools JavaScript tutorial](https://www.w3schools.com/js/DEFAULT.asp)
+- HTML resources: [W3 schools HTML tutorial](https://www.w3schools.com/html/)
 
 ## 1. American Community Survey API endpoint
 An endpoint is simply the base url of an API. It contains the necessary information for the database to respond with the exact data points user want.
