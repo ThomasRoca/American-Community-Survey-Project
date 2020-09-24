@@ -22,7 +22,9 @@ As put by the U.S. Census Bureau, "the American Community Survey (ACS) is an ong
 - [Census Bureau API key registration page](https://api.census.gov/data/key_signup.html)
 - [The Open Data Institute](https://theodi.org/)
 - [Microsoft Open Data Campaign](https://blogs.microsoft.com/on-the-issues/2020/04/21/open-data-campaign-divide/)
-- Python resources: [Microsoft Introduction to python, Azure notebook](https://notebooks.azure.com/Microsoft/projects/2018-Intro-Python/html/Introduction%20to%20Python.ipynb)
+- Python resources: 
+  - [Microsoft Introduction to python, Azure notebook](https://notebooks.azure.com/Microsoft/projects/2018-Intro-Python/html/Introduction%20to%20Python.ipynb)
+  - [Microsoft Python for data analysis](https://notebooks.azure.com/wesm/projects/python-for-data-analysis)
 - JavaScript resources: [W3 schools JavaScript tutorial](https://www.w3schools.com/js/DEFAULT.asp)
 - HTML resources: [W3 schools HTML tutorial](https://www.w3schools.com/html/)
 
