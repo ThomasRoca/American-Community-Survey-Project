@@ -1,5 +1,5 @@
 ![](https://raw.githubusercontent.com/ThomasRoca/American-Community-Survey-Project/gh-pages/assets/img/header.jpg)
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)&nbsp;<i>Image author: **Ted Eytan**, Creative Common Licence</i>
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)&nbsp;<small><i>Image author: **Ted Eytan**, Creative Common Licence</i></small>
 
 ## About this tutorial
 [Open data](https://theodi.org/article/what-is-open-data-and-why-should-we-care/) is about transparency, accountability and empowerment. By making accessible the data they collect - those data points that can be shared without harming data subjects - organizations provide information to the public but also opportunities to build systems and applications that consume data, transform it, re-purpose it and eventually make it even more useful for society. Read more about Microsoft's contribution and our [Open Data Campaign](https://blogs.microsoft.com/on-the-issues/2020/04/21/open-data-campaign-divide/).
