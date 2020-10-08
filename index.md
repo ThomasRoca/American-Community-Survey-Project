@@ -327,7 +327,8 @@ As another example of visualization, we showcase below what can be easily achiev
 
 ## 3. Example of query using JavaScript
 Let's continue our journey with JavaScript. If you want to build a web application the standard way is to use JavaScript and HTML/CSS. I will start with a simple query
-asking the API for poverty rate (code: ``S0201_255E``) for "New York-Newark-Jersey City, NY-NJ-PA Metro Area" which code is ``35620`` (see [full list](https://github.com/ThomasRoca/American-Community-Survey-Project/blob/master/Metropolitan_area_code.json)) for ``Total population`` (code ``001``) AND for ``Black or African American`` (code ``004``) NB. Code "004" is the code for all Black and African American, including  Hispanic or Latino. 
+asking the API for poverty rate (code: ``S0201_255E``) for "New York-Newark-Jersey City, NY-NJ-PA Metro Area" which code is ``35620`` (see [full list](https://github.com/ThomasRoca/American-Community-Survey-Project/blob/master/Metropolitan_area_code.json)) for ``Total population`` (code ``001``) AND for ``Black or African American`` (code ``004``) <br>
+*NB. Code "004" is the code for all Black and African American, including  Hispanic or Latino.*
 
 Here is our new query: [https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_246E&POPGROUP=001&POPGROUP=004&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:35620](https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_246E&POPGROUP=001&POPGROUP=004&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:35620)
 
