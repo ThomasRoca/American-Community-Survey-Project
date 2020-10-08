@@ -107,10 +107,10 @@ api_key=""
 indicator="S0201_308E"
 
 # we want Total population, white, Black or African American and Hispanic or Latino
-popgroup1="001"
-popgroup2="451"
-popgroup3="453"
-popgroup4="400"
+popgroup1="001" # Total population
+popgroup2="451" # "White alone, not Hispanic or Latino"
+popgroup3="453" # "Black or African American alone, not Hispanic or Latino"
+popgroup4="400" # "Hispanic or Latino (of any race) (200-299)"
 
 # here is the geography level : Metropolitan statistical area and micropolitan area
 # reference: https://www.census.gov/programs-surveys/metro-micro/about.html
@@ -126,7 +126,7 @@ data = json.loads(response.text)
 # Save a Pandas DataFrame
 df=pd.DataFrame(data[1:], columns=data[0])
 # values are stored as string, we need to convert them into numbers
-df['S0201_308E']=df['S0201_308E'].astype(float)
+df[indicator]=df[indicator].astype(float)
 
 #save as csv
 df.to_csv('ACS_broadband.csv')
