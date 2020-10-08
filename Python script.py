@@ -1,7 +1,4 @@
 import pandas as pd
-import matplotlib.pyplot as plt; plt.rcdefaults()
-from IPython.display import display
-import numpy as np
 import requests
 import json
         
@@ -12,10 +9,10 @@ api_key=""
 indicator="S0201_308E"
 
 # we want Total population, white, Black or African American and Hispanic or Latino
-popgroup1="001"
-popgroup2="002"
-popgroup3="004"
-popgroup4="400"
+popgroup1="001" # Total population
+popgroup2="451" # "White alone, not Hispanic or Latino"
+popgroup3="453" # "Black or African American alone, not Hispanic or Latino"
+popgroup4="400" # "Hispanic or Latino (of any race) (200-299)"
 
 # here is the geography level : Metropolitan statistical area and micropolitan area
 # reference: https://www.census.gov/programs-surveys/metro-micro/about.html
@@ -31,7 +28,7 @@ data = json.loads(response.text)
 # Save a Pandas DataFrame
 df=pd.DataFrame(data[1:], columns=data[0])
 # values are stored as string, we need to convert them into numbers
-df['S0201_308E']=df['S0201_308E'].astype(float)
+df[indicator]=df[indicator].astype(float)
 
 #save as csv
 df.to_csv('ACS_broadband.csv')
@@ -44,10 +41,12 @@ display(df.sort_values(["NAME"]))
 Seattle=df.loc[df["NAME"]=="Seattle-Tacoma-Bellevue, WA Metro Area"].copy()
 
 # code and label for population group 
-pop_group_dict= {"001":"Total population", 
-                 "002": "White alone", 
-                 "400": "Hispanic or Latino",
-                 "004": "Black or African American"}
+pop_group_dict={"001": "Total population",
+                "451": "White alone, not Hispanic or Latino",
+                "400": "Hispanic or Latino (of any race) (200-299)",
+                "453": "Black or African American alone, not Hispanic or Latino",
+                "457": "Asian alone, not Hispanic or Latino"}
+
 
 Seattle["Population group"]=Seattle["POPGROUP"].map(pop_group_dict)
 Seattle=Seattle.sort_values("S0201_308E")
