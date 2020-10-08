@@ -237,10 +237,12 @@ We can now display the data in a bar chart with Matplotlib.
 Seattle=df.loc[df["NAME"]=="Seattle-Tacoma-Bellevue, WA Metro Area"].copy()
 
 # code and label for population group 
-pop_group_dict= {"001":"Total population", 
-                 "002": "White alone", 
-                 "400": "Hispanic or Latino",
-                 "004": "Black or African American"}
+pop_group_dict={"001": "Total population",
+                "451": "White alone, not Hispanic or Latino",
+                "400": "Hispanic or Latino (of any race) (200-299)",
+                "453": "Black or African American alone, not Hispanic or Latino",
+                "457": "Asian alone, not Hispanic or Latino"}
+
 
 Seattle["Population group"]=Seattle["POPGROUP"].map(pop_group_dict)
 Seattle=Seattle.sort_values("S0201_308E")
@@ -248,7 +250,7 @@ Seattle
 ```
 
 <table border="0" class="dataframe">
-  <thead>
+ <thead>
     <tr style="text-align: right;">
       <th></th>
       <th>NAME</th>
@@ -260,20 +262,20 @@ Seattle
   </thead>
   <tbody>
     <tr>
-      <th>280</th>
+      <th>356</th>
       <td>Seattle-Tacoma-Bellevue, WA Metro Area</td>
-      <td>85.4</td>
-      <td>004</td>
+      <td>85.3</td>
+      <td>453</td>
       <td>42660</td>
-      <td>Black or African American</td>
+      <td>Black or African American alone, not Hispanic ...</td>
     </tr>
     <tr>
-      <th>342</th>
+      <th>174</th>
       <td>Seattle-Tacoma-Bellevue, WA Metro Area</td>
       <td>90.4</td>
       <td>400</td>
       <td>42660</td>
-      <td>Hispanic or Latino</td>
+      <td>Hispanic or Latino (of any race) (200-299)</td>
     </tr>
     <tr>
       <th>91</th>
@@ -284,12 +286,12 @@ Seattle
       <td>Total population</td>
     </tr>
     <tr>
-      <th>198</th>
+      <th>276</th>
       <td>Seattle-Tacoma-Bellevue, WA Metro Area</td>
       <td>92.1</td>
-      <td>002</td>
+      <td>451</td>
       <td>42660</td>
-      <td>White alone</td>
+      <td>White alone, not Hispanic or Latino</td>
     </tr>
   </tbody>
 </table>
