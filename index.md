@@ -137,8 +137,17 @@ df.sort_values(["NAME"])
 [https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_308E&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&POPGROUP=001&POPGROUP=451&POPGROUP=453&POPGROUP=400&key=](https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_308E&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&POPGROUP=001&POPGROUP=451&POPGROUP=453&POPGROUP=400&key=)
 
 <table border="0" class="dataframe">
-  <thead>
+   <thead>
     <tr style="text-align: right;">
+      <th></th>
+      <th>NAME</th>
+      <th>S0201_308E</th>
+      <th>POPGROUP</th>
+      <th>metropolitan statistical area/micropolitan statistical area</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
       <th>0</th>
       <td>Akron, OH Metro Area</td>
       <td>86.0</td>
