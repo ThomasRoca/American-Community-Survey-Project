@@ -1,0 +1,364 @@
+,NAME,S0201_308E,POPGROUP,metropolitan statistical area/micropolitan statistical area,Population group
+0,"Akron, OH Metro Area",86.0,001,10420,Total population
+1,"Albany-Schenectady-Troy, NY Metro Area",86.9,001,10580,Total population
+2,"Albuquerque, NM Metro Area",82.0,001,10740,Total population
+3,"Allentown-Bethlehem-Easton, PA-NJ Metro Area",84.8,001,10900,Total population
+4,"Atlanta-Sandy Springs-Roswell, GA Metro Area",88.4,001,12060,Total population
+5,"Augusta-Richmond County, GA-SC Metro Area",80.2,001,12260,Total population
+6,"Austin-Round Rock, TX Metro Area",91.3,001,12420,Total population
+7,"Bakersfield, CA Metro Area",84.2,001,12540,Total population
+8,"Baltimore-Columbia-Towson, MD Metro Area",87.6,001,12580,Total population
+9,"Baton Rouge, LA Metro Area",85.4,001,12940,Total population
+10,"Birmingham-Hoover, AL Metro Area",83.5,001,13820,Total population
+11,"Boise City, ID Metro Area",88.7,001,14260,Total population
+12,"Boston-Cambridge-Newton, MA-NH Metro Area",89.6,001,14460,Total population
+13,"Bridgeport-Stamford-Norwalk, CT Metro Area",90.6,001,14860,Total population
+14,"Buffalo-Cheektowaga-Niagara Falls, NY Metro Area",84.1,001,15380,Total population
+15,"Cape Coral-Fort Myers, FL Metro Area",87.4,001,15980,Total population
+16,"Charleston-North Charleston, SC Metro Area",84.2,001,16700,Total population
+17,"Charlotte-Concord-Gastonia, NC-SC Metro Area",88.7,001,16740,Total population
+18,"Chattanooga, TN-GA Metro Area",84.2,001,16860,Total population
+19,"Chicago-Naperville-Elgin, IL-IN-WI Metro Area",86.6,001,16980,Total population
+20,"Cincinnati, OH-KY-IN Metro Area",87.0,001,17140,Total population
+21,"Cleveland-Elyria, OH Metro Area",83.1,001,17460,Total population
+22,"Colorado Springs, CO Metro Area",91.9,001,17820,Total population
+23,"Columbia, SC Metro Area",85.4,001,17900,Total population
+24,"Columbus, OH Metro Area",88.3,001,18140,Total population
+25,"Dallas-Fort Worth-Arlington, TX Metro Area",88.3,001,19100,Total population
+26,"Dayton, OH Metro Area",86.7,001,19380,Total population
+27,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",81.2,001,19660,Total population
+28,"Denver-Aurora-Lakewood, CO Metro Area",90.8,001,19740,Total population
+29,"Des Moines-West Des Moines, IA Metro Area",87.5,001,19780,Total population
+30,"Detroit-Warren-Dearborn, MI Metro Area",85.0,001,19820,Total population
+31,"Durham-Chapel Hill, NC Metro Area",87.3,001,20500,Total population
+32,"El Paso, TX Metro Area",79.6,001,21340,Total population
+33,"Fayetteville-Springdale-Rogers, AR-MO Metro Area",80.9,001,22220,Total population
+34,"Fresno, CA Metro Area",81.3,001,23420,Total population
+35,"Grand Rapids-Wyoming, MI Metro Area",86.8,001,24340,Total population
+36,"Greensboro-High Point, NC Metro Area",79.8,001,24660,Total population
+37,"Greenville-Anderson-Mauldin, SC Metro Area",83.3,001,24860,Total population
+38,"Harrisburg-Carlisle, PA Metro Area",84.4,001,25420,Total population
+39,"Hartford-West Hartford-East Hartford, CT Metro Area",86.6,001,25540,Total population
+40,"Houston-The Woodlands-Sugar Land, TX Metro Area",87.7,001,26420,Total population
+41,"Indianapolis-Carmel-Anderson, IN Metro Area",85.4,001,26900,Total population
+42,"Jackson, MS Metro Area",81.3,001,27140,Total population
+43,"Jacksonville, FL Metro Area",88.5,001,27260,Total population
+44,"Kansas City, MO-KS Metro Area",87.3,001,28140,Total population
+45,"Knoxville, TN Metro Area",81.7,001,28940,Total population
+46,"Lakeland-Winter Haven, FL Metro Area",73.0,001,29460,Total population
+47,"Lancaster, PA Metro Area",80.9,001,29540,Total population
+48,"Las Vegas-Henderson-Paradise, NV Metro Area",85.4,001,29820,Total population
+49,"Lexington-Fayette, KY Metro Area",88.9,001,30460,Total population
+50,"Little Rock-North Little Rock-Conway, AR Metro Area",81.7,001,30780,Total population
+51,"Los Angeles-Long Beach-Anaheim, CA Metro Area",87.7,001,31080,Total population
+52,"Louisville/Jefferson County, KY-IN Metro Area",84.2,001,31140,Total population
+53,"Madison, WI Metro Area",87.7,001,31540,Total population
+54,"McAllen-Edinburg-Mission, TX Metro Area",68.9,001,32580,Total population
+55,"Memphis, TN-MS-AR Metro Area",78.0,001,32820,Total population
+56,"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",83.9,001,33100,Total population
+57,"Milwaukee-Waukesha-West Allis, WI Metro Area",84.2,001,33340,Total population
+58,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",89.5,001,33460,Total population
+59,"Modesto, CA Metro Area",87.0,001,33700,Total population
+60,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",88.8,001,34980,Total population
+61,"New Haven-Milford, CT Metro Area",84.0,001,35300,Total population
+62,"New Orleans-Metairie, LA Metro Area",81.0,001,35380,Total population
+63,"New York-Newark-Jersey City, NY-NJ-PA Metro Area",86.7,001,35620,Total population
+64,"North Port-Sarasota-Bradenton, FL Metro Area",87.6,001,35840,Total population
+65,"Ogden-Clearfield, UT Metro Area",91.6,001,36260,Total population
+66,"Oklahoma City, OK Metro Area",85.8,001,36420,Total population
+67,"Omaha-Council Bluffs, NE-IA Metro Area",87.5,001,36540,Total population
+68,"Orlando-Kissimmee-Sanford, FL Metro Area",88.4,001,36740,Total population
+69,"Oxnard-Thousand Oaks-Ventura, CA Metro Area",89.6,001,37100,Total population
+70,"Palm Bay-Melbourne-Titusville, FL Metro Area",88.8,001,37340,Total population
+71,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",87.0,001,37980,Total population
+72,"Phoenix-Mesa-Scottsdale, AZ Metro Area",88.5,001,38060,Total population
+73,"Pittsburgh, PA Metro Area",85.2,001,38300,Total population
+74,"Portland-South Portland, ME Metro Area",88.4,001,38860,Total population
+75,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",90.5,001,38900,Total population
+76,"Providence-Warwick, RI-MA Metro Area",84.5,001,39300,Total population
+77,"Provo-Orem, UT Metro Area",89.6,001,39340,Total population
+78,"Raleigh, NC Metro Area",90.0,001,39580,Total population
+79,"Richmond, VA Metro Area",86.0,001,40060,Total population
+80,"Riverside-San Bernardino-Ontario, CA Metro Area",87.5,001,40140,Total population
+81,"Rochester, NY Metro Area",86.4,001,40380,Total population
+82,"Sacramento--Roseville--Arden-Arcade, CA Metro Area",90.5,001,40900,Total population
+83,"St. Louis, MO-IL Metro Area",86.0,001,41180,Total population
+84,"Salt Lake City, UT Metro Area",90.7,001,41620,Total population
+85,"San Antonio-New Braunfels, TX Metro Area",84.3,001,41700,Total population
+86,"San Diego-Carlsbad, CA Metro Area",92.2,001,41740,Total population
+87,"San Francisco-Oakland-Hayward, CA Metro Area",91.5,001,41860,Total population
+88,"San Jose-Sunnyvale-Santa Clara, CA Metro Area",93.5,001,41940,Total population
+89,"Santa Rosa, CA Metro Area",92.5,001,42220,Total population
+90,"Scranton--Wilkes-Barre--Hazleton, PA Metro Area",82.2,001,42540,Total population
+91,"Seattle-Tacoma-Bellevue, WA Metro Area",91.7,001,42660,Total population
+92,"Spokane-Spokane Valley, WA Metro Area",88.2,001,44060,Total population
+93,"Springfield, MA Metro Area",82.0,001,44140,Total population
+94,"Stockton-Lodi, CA Metro Area",84.9,001,44700,Total population
+95,"Syracuse, NY Metro Area",82.0,001,45060,Total population
+96,"Tampa-St. Petersburg-Clearwater, FL Metro Area",86.3,001,45300,Total population
+97,"Toledo, OH Metro Area",84.5,001,45780,Total population
+98,"Tucson, AZ Metro Area",86.9,001,46060,Total population
+99,"Tulsa, OK Metro Area",84.5,001,46140,Total population
+100,"Urban Honolulu, HI Metro Area",88.3,001,46520,Total population
+101,"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area",84.2,001,47260,Total population
+102,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",91.7,001,47900,Total population
+103,"Wichita, KS Metro Area",85.6,001,48620,Total population
+104,"Winston-Salem, NC Metro Area",79.8,001,49180,Total population
+105,"Worcester, MA-CT Metro Area",87.9,001,49340,Total population
+106,"Youngstown-Warren-Boardman, OH-PA Metro Area",81.8,001,49660,Total population
+107,"Albuquerque, NM Metro Area",78.9,400,10740,Hispanic or Latino (of any race) (200-299)
+108,"Allentown-Bethlehem-Easton, PA-NJ Metro Area",85.7,400,10900,Hispanic or Latino (of any race) (200-299)
+109,"Atlanta-Sandy Springs-Roswell, GA Metro Area",82.5,400,12060,Hispanic or Latino (of any race) (200-299)
+110,"Austin-Round Rock, TX Metro Area",85.2,400,12420,Hispanic or Latino (of any race) (200-299)
+111,"Bakersfield, CA Metro Area",78.6,400,12540,Hispanic or Latino (of any race) (200-299)
+112,"Baltimore-Columbia-Towson, MD Metro Area",86.1,400,12580,Hispanic or Latino (of any race) (200-299)
+113,"Boise City, ID Metro Area",82.2,400,14260,Hispanic or Latino (of any race) (200-299)
+114,"Boston-Cambridge-Newton, MA-NH Metro Area",84.5,400,14460,Hispanic or Latino (of any race) (200-299)
+115,"Bridgeport-Stamford-Norwalk, CT Metro Area",89.2,400,14860,Hispanic or Latino (of any race) (200-299)
+116,"Cape Coral-Fort Myers, FL Metro Area",84.4,400,15980,Hispanic or Latino (of any race) (200-299)
+117,"Charlotte-Concord-Gastonia, NC-SC Metro Area",86.6,400,16740,Hispanic or Latino (of any race) (200-299)
+118,"Chicago-Naperville-Elgin, IL-IN-WI Metro Area",83.8,400,16980,Hispanic or Latino (of any race) (200-299)
+119,"Cincinnati, OH-KY-IN Metro Area",86.0,400,17140,Hispanic or Latino (of any race) (200-299)
+120,"Cleveland-Elyria, OH Metro Area",75.3,400,17460,Hispanic or Latino (of any race) (200-299)
+121,"Colorado Springs, CO Metro Area",89.2,400,17820,Hispanic or Latino (of any race) (200-299)
+122,"Columbus, OH Metro Area",88.4,400,18140,Hispanic or Latino (of any race) (200-299)
+123,"Dallas-Fort Worth-Arlington, TX Metro Area",81.8,400,19100,Hispanic or Latino (of any race) (200-299)
+124,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",75.7,400,19660,Hispanic or Latino (of any race) (200-299)
+125,"Denver-Aurora-Lakewood, CO Metro Area",84.3,400,19740,Hispanic or Latino (of any race) (200-299)
+126,"Detroit-Warren-Dearborn, MI Metro Area",83.2,400,19820,Hispanic or Latino (of any race) (200-299)
+127,"Durham-Chapel Hill, NC Metro Area",88.9,400,20500,Hispanic or Latino (of any race) (200-299)
+128,"El Paso, TX Metro Area",77.3,400,21340,Hispanic or Latino (of any race) (200-299)
+129,"Fayetteville-Springdale-Rogers, AR-MO Metro Area",73.8,400,22220,Hispanic or Latino (of any race) (200-299)
+130,"Fresno, CA Metro Area",77.1,400,23420,Hispanic or Latino (of any race) (200-299)
+131,"Grand Rapids-Wyoming, MI Metro Area",85.5,400,24340,Hispanic or Latino (of any race) (200-299)
+132,"Greensboro-High Point, NC Metro Area",78.1,400,24660,Hispanic or Latino (of any race) (200-299)
+133,"Hartford-West Hartford-East Hartford, CT Metro Area",80.1,400,25540,Hispanic or Latino (of any race) (200-299)
+134,"Houston-The Woodlands-Sugar Land, TX Metro Area",82.1,400,26420,Hispanic or Latino (of any race) (200-299)
+135,"Indianapolis-Carmel-Anderson, IN Metro Area",82.3,400,26900,Hispanic or Latino (of any race) (200-299)
+136,"Jacksonville, FL Metro Area",86.9,400,27260,Hispanic or Latino (of any race) (200-299)
+137,"Kansas City, MO-KS Metro Area",85.1,400,28140,Hispanic or Latino (of any race) (200-299)
+138,"Lakeland-Winter Haven, FL Metro Area",61.9,400,29460,Hispanic or Latino (of any race) (200-299)
+139,"Las Vegas-Henderson-Paradise, NV Metro Area",79.7,400,29820,Hispanic or Latino (of any race) (200-299)
+140,"Los Angeles-Long Beach-Anaheim, CA Metro Area",84.4,400,31080,Hispanic or Latino (of any race) (200-299)
+141,"McAllen-Edinburg-Mission, TX Metro Area",67.2,400,32580,Hispanic or Latino (of any race) (200-299)
+142,"Memphis, TN-MS-AR Metro Area",78.2,400,32820,Hispanic or Latino (of any race) (200-299)
+143,"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",82.0,400,33100,Hispanic or Latino (of any race) (200-299)
+144,"Milwaukee-Waukesha-West Allis, WI Metro Area",76.8,400,33340,Hispanic or Latino (of any race) (200-299)
+145,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",85.2,400,33460,Hispanic or Latino (of any race) (200-299)
+146,"Modesto, CA Metro Area",86.5,400,33700,Hispanic or Latino (of any race) (200-299)
+147,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",87.9,400,34980,Hispanic or Latino (of any race) (200-299)
+148,"New Haven-Milford, CT Metro Area",75.6,400,35300,Hispanic or Latino (of any race) (200-299)
+149,"New Orleans-Metairie, LA Metro Area",78.7,400,35380,Hispanic or Latino (of any race) (200-299)
+150,"New York-Newark-Jersey City, NY-NJ-PA Metro Area",82.8,400,35620,Hispanic or Latino (of any race) (200-299)
+151,"North Port-Sarasota-Bradenton, FL Metro Area",81.9,400,35840,Hispanic or Latino (of any race) (200-299)
+152,"Ogden-Clearfield, UT Metro Area",87.1,400,36260,Hispanic or Latino (of any race) (200-299)
+153,"Oklahoma City, OK Metro Area",82.9,400,36420,Hispanic or Latino (of any race) (200-299)
+154,"Omaha-Council Bluffs, NE-IA Metro Area",91.3,400,36540,Hispanic or Latino (of any race) (200-299)
+155,"Orlando-Kissimmee-Sanford, FL Metro Area",86.7,400,36740,Hispanic or Latino (of any race) (200-299)
+156,"Oxnard-Thousand Oaks-Ventura, CA Metro Area",83.4,400,37100,Hispanic or Latino (of any race) (200-299)
+157,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",81.9,400,37980,Hispanic or Latino (of any race) (200-299)
+158,"Phoenix-Mesa-Scottsdale, AZ Metro Area",82.6,400,38060,Hispanic or Latino (of any race) (200-299)
+159,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",88.2,400,38900,Hispanic or Latino (of any race) (200-299)
+160,"Providence-Warwick, RI-MA Metro Area",83.2,400,39300,Hispanic or Latino (of any race) (200-299)
+161,"Provo-Orem, UT Metro Area",87.2,400,39340,Hispanic or Latino (of any race) (200-299)
+162,"Raleigh, NC Metro Area",85.0,400,39580,Hispanic or Latino (of any race) (200-299)
+163,"Richmond, VA Metro Area",81.2,400,40060,Hispanic or Latino (of any race) (200-299)
+164,"Riverside-San Bernardino-Ontario, CA Metro Area",86.4,400,40140,Hispanic or Latino (of any race) (200-299)
+165,"Rochester, NY Metro Area",79.4,400,40380,Hispanic or Latino (of any race) (200-299)
+166,"Sacramento--Roseville--Arden-Arcade, CA Metro Area",89.5,400,40900,Hispanic or Latino (of any race) (200-299)
+167,"St. Louis, MO-IL Metro Area",88.7,400,41180,Hispanic or Latino (of any race) (200-299)
+168,"Salt Lake City, UT Metro Area",90.4,400,41620,Hispanic or Latino (of any race) (200-299)
+169,"San Antonio-New Braunfels, TX Metro Area",80.4,400,41700,Hispanic or Latino (of any race) (200-299)
+170,"San Diego-Carlsbad, CA Metro Area",90.2,400,41740,Hispanic or Latino (of any race) (200-299)
+171,"San Francisco-Oakland-Hayward, CA Metro Area",89.6,400,41860,Hispanic or Latino (of any race) (200-299)
+172,"San Jose-Sunnyvale-Santa Clara, CA Metro Area",88.8,400,41940,Hispanic or Latino (of any race) (200-299)
+173,"Santa Rosa, CA Metro Area",91.0,400,42220,Hispanic or Latino (of any race) (200-299)
+174,"Seattle-Tacoma-Bellevue, WA Metro Area",90.4,400,42660,Hispanic or Latino (of any race) (200-299)
+175,"Springfield, MA Metro Area",70.6,400,44140,Hispanic or Latino (of any race) (200-299)
+176,"Stockton-Lodi, CA Metro Area",82.2,400,44700,Hispanic or Latino (of any race) (200-299)
+177,"Tampa-St. Petersburg-Clearwater, FL Metro Area",84.7,400,45300,Hispanic or Latino (of any race) (200-299)
+178,"Tucson, AZ Metro Area",84.6,400,46060,Hispanic or Latino (of any race) (200-299)
+179,"Tulsa, OK Metro Area",86.8,400,46140,Hispanic or Latino (of any race) (200-299)
+180,"Urban Honolulu, HI Metro Area",90.1,400,46520,Hispanic or Latino (of any race) (200-299)
+181,"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area",84.5,400,47260,Hispanic or Latino (of any race) (200-299)
+182,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",90.1,400,47900,Hispanic or Latino (of any race) (200-299)
+183,"Wichita, KS Metro Area",79.0,400,48620,Hispanic or Latino (of any race) (200-299)
+184,"Winston-Salem, NC Metro Area",81.4,400,49180,Hispanic or Latino (of any race) (200-299)
+185,"Worcester, MA-CT Metro Area",83.8,400,49340,Hispanic or Latino (of any race) (200-299)
+186,"Akron, OH Metro Area",86.9,451,10420,"White alone, not Hispanic or Latino"
+187,"Albany-Schenectady-Troy, NY Metro Area",87.5,451,10580,"White alone, not Hispanic or Latino"
+188,"Albuquerque, NM Metro Area",86.2,451,10740,"White alone, not Hispanic or Latino"
+189,"Allentown-Bethlehem-Easton, PA-NJ Metro Area",83.9,451,10900,"White alone, not Hispanic or Latino"
+190,"Atlanta-Sandy Springs-Roswell, GA Metro Area",91.0,451,12060,"White alone, not Hispanic or Latino"
+191,"Augusta-Richmond County, GA-SC Metro Area",85.3,451,12260,"White alone, not Hispanic or Latino"
+192,"Austin-Round Rock, TX Metro Area",94.0,451,12420,"White alone, not Hispanic or Latino"
+193,"Bakersfield, CA Metro Area",89.1,451,12540,"White alone, not Hispanic or Latino"
+194,"Baltimore-Columbia-Towson, MD Metro Area",89.9,451,12580,"White alone, not Hispanic or Latino"
+195,"Baton Rouge, LA Metro Area",87.7,451,12940,"White alone, not Hispanic or Latino"
+196,"Birmingham-Hoover, AL Metro Area",86.6,451,13820,"White alone, not Hispanic or Latino"
+197,"Boise City, ID Metro Area",89.1,451,14260,"White alone, not Hispanic or Latino"
+198,"Boston-Cambridge-Newton, MA-NH Metro Area",90.5,451,14460,"White alone, not Hispanic or Latino"
+199,"Bridgeport-Stamford-Norwalk, CT Metro Area",91.6,451,14860,"White alone, not Hispanic or Latino"
+200,"Buffalo-Cheektowaga-Niagara Falls, NY Metro Area",85.7,451,15380,"White alone, not Hispanic or Latino"
+201,"Cape Coral-Fort Myers, FL Metro Area",88.4,451,15980,"White alone, not Hispanic or Latino"
+202,"Charleston-North Charleston, SC Metro Area",87.8,451,16700,"White alone, not Hispanic or Latino"
+203,"Charlotte-Concord-Gastonia, NC-SC Metro Area",90.2,451,16740,"White alone, not Hispanic or Latino"
+204,"Chattanooga, TN-GA Metro Area",87.0,451,16860,"White alone, not Hispanic or Latino"
+205,"Chicago-Naperville-Elgin, IL-IN-WI Metro Area",89.0,451,16980,"White alone, not Hispanic or Latino"
+206,"Cincinnati, OH-KY-IN Metro Area",88.2,451,17140,"White alone, not Hispanic or Latino"
+207,"Cleveland-Elyria, OH Metro Area",85.8,451,17460,"White alone, not Hispanic or Latino"
+208,"Colorado Springs, CO Metro Area",92.6,451,17820,"White alone, not Hispanic or Latino"
+209,"Columbia, SC Metro Area",88.3,451,17900,"White alone, not Hispanic or Latino"
+210,"Columbus, OH Metro Area",89.1,451,18140,"White alone, not Hispanic or Latino"
+211,"Dallas-Fort Worth-Arlington, TX Metro Area",92.1,451,19100,"White alone, not Hispanic or Latino"
+212,"Dayton, OH Metro Area",87.5,451,19380,"White alone, not Hispanic or Latino"
+213,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",84.0,451,19660,"White alone, not Hispanic or Latino"
+214,"Denver-Aurora-Lakewood, CO Metro Area",92.8,451,19740,"White alone, not Hispanic or Latino"
+215,"Des Moines-West Des Moines, IA Metro Area",87.6,451,19780,"White alone, not Hispanic or Latino"
+216,"Detroit-Warren-Dearborn, MI Metro Area",88.3,451,19820,"White alone, not Hispanic or Latino"
+217,"Durham-Chapel Hill, NC Metro Area",90.2,451,20500,"White alone, not Hispanic or Latino"
+218,"El Paso, TX Metro Area",87.3,451,21340,"White alone, not Hispanic or Latino"
+219,"Fayetteville-Springdale-Rogers, AR-MO Metro Area",82.1,451,22220,"White alone, not Hispanic or Latino"
+220,"Fresno, CA Metro Area",85.4,451,23420,"White alone, not Hispanic or Latino"
+221,"Grand Rapids-Wyoming, MI Metro Area",87.4,451,24340,"White alone, not Hispanic or Latino"
+222,"Greensboro-High Point, NC Metro Area",81.7,451,24660,"White alone, not Hispanic or Latino"
+223,"Greenville-Anderson-Mauldin, SC Metro Area",85.1,451,24860,"White alone, not Hispanic or Latino"
+224,"Harrisburg-Carlisle, PA Metro Area",85.4,451,25420,"White alone, not Hispanic or Latino"
+225,"Hartford-West Hartford-East Hartford, CT Metro Area",87.7,451,25540,"White alone, not Hispanic or Latino"
+226,"Houston-The Woodlands-Sugar Land, TX Metro Area",91.5,451,26420,"White alone, not Hispanic or Latino"
+227,"Indianapolis-Carmel-Anderson, IN Metro Area",88.1,451,26900,"White alone, not Hispanic or Latino"
+228,"Jackson, MS Metro Area",84.1,451,27140,"White alone, not Hispanic or Latino"
+229,"Jacksonville, FL Metro Area",90.1,451,27260,"White alone, not Hispanic or Latino"
+230,"Kansas City, MO-KS Metro Area",88.4,451,28140,"White alone, not Hispanic or Latino"
+231,"Knoxville, TN Metro Area",82.4,451,28940,"White alone, not Hispanic or Latino"
+232,"Lakeland-Winter Haven, FL Metro Area",78.5,451,29460,"White alone, not Hispanic or Latino"
+233,"Lancaster, PA Metro Area",80.4,451,29540,"White alone, not Hispanic or Latino"
+234,"Las Vegas-Henderson-Paradise, NV Metro Area",88.7,451,29820,"White alone, not Hispanic or Latino"
+235,"Lexington-Fayette, KY Metro Area",89.9,451,30460,"White alone, not Hispanic or Latino"
+236,"Little Rock-North Little Rock-Conway, AR Metro Area",84.7,451,30780,"White alone, not Hispanic or Latino"
+237,"Los Angeles-Long Beach-Anaheim, CA Metro Area",90.7,451,31080,"White alone, not Hispanic or Latino"
+238,"Louisville/Jefferson County, KY-IN Metro Area",85.2,451,31140,"White alone, not Hispanic or Latino"
+239,"Madison, WI Metro Area",87.5,451,31540,"White alone, not Hispanic or Latino"
+240,"Memphis, TN-MS-AR Metro Area",86.0,451,32820,"White alone, not Hispanic or Latino"
+241,"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",88.5,451,33100,"White alone, not Hispanic or Latino"
+242,"Milwaukee-Waukesha-West Allis, WI Metro Area",87.1,451,33340,"White alone, not Hispanic or Latino"
+243,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",90.2,451,33460,"White alone, not Hispanic or Latino"
+244,"Modesto, CA Metro Area",87.5,451,33700,"White alone, not Hispanic or Latino"
+245,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",89.6,451,34980,"White alone, not Hispanic or Latino"
+246,"New Haven-Milford, CT Metro Area",86.3,451,35300,"White alone, not Hispanic or Latino"
+247,"New Orleans-Metairie, LA Metro Area",86.8,451,35380,"White alone, not Hispanic or Latino"
+248,"New York-Newark-Jersey City, NY-NJ-PA Metro Area",88.7,451,35620,"White alone, not Hispanic or Latino"
+249,"North Port-Sarasota-Bradenton, FL Metro Area",88.4,451,35840,"White alone, not Hispanic or Latino"
+250,"Ogden-Clearfield, UT Metro Area",92.1,451,36260,"White alone, not Hispanic or Latino"
+251,"Oklahoma City, OK Metro Area",87.6,451,36420,"White alone, not Hispanic or Latino"
+252,"Omaha-Council Bluffs, NE-IA Metro Area",87.9,451,36540,"White alone, not Hispanic or Latino"
+253,"Orlando-Kissimmee-Sanford, FL Metro Area",90.5,451,36740,"White alone, not Hispanic or Latino"
+254,"Oxnard-Thousand Oaks-Ventura, CA Metro Area",91.7,451,37100,"White alone, not Hispanic or Latino"
+255,"Palm Bay-Melbourne-Titusville, FL Metro Area",88.8,451,37340,"White alone, not Hispanic or Latino"
+256,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",89.6,451,37980,"White alone, not Hispanic or Latino"
+257,"Phoenix-Mesa-Scottsdale, AZ Metro Area",90.8,451,38060,"White alone, not Hispanic or Latino"
+258,"Pittsburgh, PA Metro Area",85.6,451,38300,"White alone, not Hispanic or Latino"
+259,"Portland-South Portland, ME Metro Area",88.6,451,38860,"White alone, not Hispanic or Latino"
+260,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",90.7,451,38900,"White alone, not Hispanic or Latino"
+261,"Providence-Warwick, RI-MA Metro Area",85.1,451,39300,"White alone, not Hispanic or Latino"
+262,"Provo-Orem, UT Metro Area",89.8,451,39340,"White alone, not Hispanic or Latino"
+263,"Raleigh, NC Metro Area",92.2,451,39580,"White alone, not Hispanic or Latino"
+264,"Richmond, VA Metro Area",89.8,451,40060,"White alone, not Hispanic or Latino"
+265,"Riverside-San Bernardino-Ontario, CA Metro Area",88.3,451,40140,"White alone, not Hispanic or Latino"
+266,"Rochester, NY Metro Area",87.6,451,40380,"White alone, not Hispanic or Latino"
+267,"Sacramento--Roseville--Arden-Arcade, CA Metro Area",91.1,451,40900,"White alone, not Hispanic or Latino"
+268,"St. Louis, MO-IL Metro Area",88.3,451,41180,"White alone, not Hispanic or Latino"
+269,"Salt Lake City, UT Metro Area",90.8,451,41620,"White alone, not Hispanic or Latino"
+270,"San Antonio-New Braunfels, TX Metro Area",89.5,451,41700,"White alone, not Hispanic or Latino"
+271,"San Diego-Carlsbad, CA Metro Area",93.0,451,41740,"White alone, not Hispanic or Latino"
+272,"San Francisco-Oakland-Hayward, CA Metro Area",92.8,451,41860,"White alone, not Hispanic or Latino"
+273,"San Jose-Sunnyvale-Santa Clara, CA Metro Area",93.9,451,41940,"White alone, not Hispanic or Latino"
+274,"Santa Rosa, CA Metro Area",92.6,451,42220,"White alone, not Hispanic or Latino"
+275,"Scranton--Wilkes-Barre--Hazleton, PA Metro Area",81.4,451,42540,"White alone, not Hispanic or Latino"
+276,"Seattle-Tacoma-Bellevue, WA Metro Area",92.1,451,42660,"White alone, not Hispanic or Latino"
+277,"Spokane-Spokane Valley, WA Metro Area",88.1,451,44060,"White alone, not Hispanic or Latino"
+278,"Springfield, MA Metro Area",84.9,451,44140,"White alone, not Hispanic or Latino"
+279,"Stockton-Lodi, CA Metro Area",85.7,451,44700,"White alone, not Hispanic or Latino"
+280,"Syracuse, NY Metro Area",85.1,451,45060,"White alone, not Hispanic or Latino"
+281,"Tampa-St. Petersburg-Clearwater, FL Metro Area",87.3,451,45300,"White alone, not Hispanic or Latino"
+282,"Toledo, OH Metro Area",85.6,451,45780,"White alone, not Hispanic or Latino"
+283,"Tucson, AZ Metro Area",88.4,451,46060,"White alone, not Hispanic or Latino"
+284,"Tulsa, OK Metro Area",85.4,451,46140,"White alone, not Hispanic or Latino"
+285,"Urban Honolulu, HI Metro Area",92.2,451,46520,"White alone, not Hispanic or Latino"
+286,"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area",88.1,451,47260,"White alone, not Hispanic or Latino"
+287,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",93.8,451,47900,"White alone, not Hispanic or Latino"
+288,"Wichita, KS Metro Area",87.0,451,48620,"White alone, not Hispanic or Latino"
+289,"Winston-Salem, NC Metro Area",82.1,451,49180,"White alone, not Hispanic or Latino"
+290,"Worcester, MA-CT Metro Area",87.8,451,49340,"White alone, not Hispanic or Latino"
+291,"Youngstown-Warren-Boardman, OH-PA Metro Area",82.0,451,49660,"White alone, not Hispanic or Latino"
+292,"Akron, OH Metro Area",80.5,453,10420,"Black or African American alone, not Hispanic or Latino"
+293,"Albany-Schenectady-Troy, NY Metro Area",78.0,453,10580,"Black or African American alone, not Hispanic or Latino"
+294,"Atlanta-Sandy Springs-Roswell, GA Metro Area",84.4,453,12060,"Black or African American alone, not Hispanic or Latino"
+295,"Augusta-Richmond County, GA-SC Metro Area",71.1,453,12260,"Black or African American alone, not Hispanic or Latino"
+296,"Austin-Round Rock, TX Metro Area",85.6,453,12420,"Black or African American alone, not Hispanic or Latino"
+297,"Baltimore-Columbia-Towson, MD Metro Area",81.6,453,12580,"Black or African American alone, not Hispanic or Latino"
+298,"Baton Rouge, LA Metro Area",80.5,453,12940,"Black or African American alone, not Hispanic or Latino"
+299,"Birmingham-Hoover, AL Metro Area",77.4,453,13820,"Black or African American alone, not Hispanic or Latino"
+300,"Boston-Cambridge-Newton, MA-NH Metro Area",81.5,453,14460,"Black or African American alone, not Hispanic or Latino"
+301,"Bridgeport-Stamford-Norwalk, CT Metro Area",83.7,453,14860,"Black or African American alone, not Hispanic or Latino"
+302,"Buffalo-Cheektowaga-Niagara Falls, NY Metro Area",75.7,453,15380,"Black or African American alone, not Hispanic or Latino"
+303,"Charleston-North Charleston, SC Metro Area",73.8,453,16700,"Black or African American alone, not Hispanic or Latino"
+304,"Charlotte-Concord-Gastonia, NC-SC Metro Area",84.0,453,16740,"Black or African American alone, not Hispanic or Latino"
+305,"Chattanooga, TN-GA Metro Area",69.7,453,16860,"Black or African American alone, not Hispanic or Latino"
+306,"Chicago-Naperville-Elgin, IL-IN-WI Metro Area",78.3,453,16980,"Black or African American alone, not Hispanic or Latino"
+307,"Cincinnati, OH-KY-IN Metro Area",79.3,453,17140,"Black or African American alone, not Hispanic or Latino"
+308,"Cleveland-Elyria, OH Metro Area",74.4,453,17460,"Black or African American alone, not Hispanic or Latino"
+309,"Columbia, SC Metro Area",79.2,453,17900,"Black or African American alone, not Hispanic or Latino"
+310,"Columbus, OH Metro Area",82.0,453,18140,"Black or African American alone, not Hispanic or Latino"
+311,"Dallas-Fort Worth-Arlington, TX Metro Area",81.7,453,19100,"Black or African American alone, not Hispanic or Latino"
+312,"Dayton, OH Metro Area",81.0,453,19380,"Black or African American alone, not Hispanic or Latino"
+313,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area",67.7,453,19660,"Black or African American alone, not Hispanic or Latino"
+314,"Denver-Aurora-Lakewood, CO Metro Area",83.7,453,19740,"Black or African American alone, not Hispanic or Latino"
+315,"Detroit-Warren-Dearborn, MI Metro Area",74.0,453,19820,"Black or African American alone, not Hispanic or Latino"
+316,"Durham-Chapel Hill, NC Metro Area",79.8,453,20500,"Black or African American alone, not Hispanic or Latino"
+317,"Grand Rapids-Wyoming, MI Metro Area",77.5,453,24340,"Black or African American alone, not Hispanic or Latino"
+318,"Greensboro-High Point, NC Metro Area",75.4,453,24660,"Black or African American alone, not Hispanic or Latino"
+319,"Greenville-Anderson-Mauldin, SC Metro Area",75.1,453,24860,"Black or African American alone, not Hispanic or Latino"
+320,"Hartford-West Hartford-East Hartford, CT Metro Area",83.0,453,25540,"Black or African American alone, not Hispanic or Latino"
+321,"Houston-The Woodlands-Sugar Land, TX Metro Area",84.6,453,26420,"Black or African American alone, not Hispanic or Latino"
+322,"Indianapolis-Carmel-Anderson, IN Metro Area",72.6,453,26900,"Black or African American alone, not Hispanic or Latino"
+323,"Jackson, MS Metro Area",77.9,453,27140,"Black or African American alone, not Hispanic or Latino"
+324,"Jacksonville, FL Metro Area",83.0,453,27260,"Black or African American alone, not Hispanic or Latino"
+325,"Kansas City, MO-KS Metro Area",80.3,453,28140,"Black or African American alone, not Hispanic or Latino"
+326,"Lakeland-Winter Haven, FL Metro Area",56.7,453,29460,"Black or African American alone, not Hispanic or Latino"
+327,"Las Vegas-Henderson-Paradise, NV Metro Area",78.7,453,29820,"Black or African American alone, not Hispanic or Latino"
+328,"Little Rock-North Little Rock-Conway, AR Metro Area",74.8,453,30780,"Black or African American alone, not Hispanic or Latino"
+329,"Los Angeles-Long Beach-Anaheim, CA Metro Area",80.3,453,31080,"Black or African American alone, not Hispanic or Latino"
+330,"Louisville/Jefferson County, KY-IN Metro Area",78.4,453,31140,"Black or African American alone, not Hispanic or Latino"
+331,"Memphis, TN-MS-AR Metro Area",69.1,453,32820,"Black or African American alone, not Hispanic or Latino"
+332,"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",76.8,453,33100,"Black or African American alone, not Hispanic or Latino"
+333,"Milwaukee-Waukesha-West Allis, WI Metro Area",72.5,453,33340,"Black or African American alone, not Hispanic or Latino"
+334,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",82.4,453,33460,"Black or African American alone, not Hispanic or Latino"
+335,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",84.6,453,34980,"Black or African American alone, not Hispanic or Latino"
+336,"New Haven-Milford, CT Metro Area",80.3,453,35300,"Black or African American alone, not Hispanic or Latino"
+337,"New Orleans-Metairie, LA Metro Area",71.4,453,35380,"Black or African American alone, not Hispanic or Latino"
+338,"New York-Newark-Jersey City, NY-NJ-PA Metro Area",81.7,453,35620,"Black or African American alone, not Hispanic or Latino"
+339,"Oklahoma City, OK Metro Area",76.0,453,36420,"Black or African American alone, not Hispanic or Latino"
+340,"Omaha-Council Bluffs, NE-IA Metro Area",77.7,453,36540,"Black or African American alone, not Hispanic or Latino"
+341,"Orlando-Kissimmee-Sanford, FL Metro Area",82.3,453,36740,"Black or African American alone, not Hispanic or Latino"
+342,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",79.4,453,37980,"Black or African American alone, not Hispanic or Latino"
+343,"Phoenix-Mesa-Scottsdale, AZ Metro Area",83.7,453,38060,"Black or African American alone, not Hispanic or Latino"
+344,"Pittsburgh, PA Metro Area",77.8,453,38300,"Black or African American alone, not Hispanic or Latino"
+345,"Portland-Vancouver-Hillsboro, OR-WA Metro Area",81.0,453,38900,"Black or African American alone, not Hispanic or Latino"
+346,"Providence-Warwick, RI-MA Metro Area",80.0,453,39300,"Black or African American alone, not Hispanic or Latino"
+347,"Raleigh, NC Metro Area",83.4,453,39580,"Black or African American alone, not Hispanic or Latino"
+348,"Richmond, VA Metro Area",77.4,453,40060,"Black or African American alone, not Hispanic or Latino"
+349,"Riverside-San Bernardino-Ontario, CA Metro Area",84.4,453,40140,"Black or African American alone, not Hispanic or Latino"
+350,"Rochester, NY Metro Area",79.3,453,40380,"Black or African American alone, not Hispanic or Latino"
+351,"Sacramento--Roseville--Arden-Arcade, CA Metro Area",85.1,453,40900,"Black or African American alone, not Hispanic or Latino"
+352,"St. Louis, MO-IL Metro Area",74.7,453,41180,"Black or African American alone, not Hispanic or Latino"
+353,"San Antonio-New Braunfels, TX Metro Area",77.2,453,41700,"Black or African American alone, not Hispanic or Latino"
+354,"San Diego-Carlsbad, CA Metro Area",88.5,453,41740,"Black or African American alone, not Hispanic or Latino"
+355,"San Francisco-Oakland-Hayward, CA Metro Area",83.8,453,41860,"Black or African American alone, not Hispanic or Latino"
+356,"Seattle-Tacoma-Bellevue, WA Metro Area",85.3,453,42660,"Black or African American alone, not Hispanic or Latino"
+357,"Tampa-St. Petersburg-Clearwater, FL Metro Area",80.4,453,45300,"Black or African American alone, not Hispanic or Latino"
+358,"Toledo, OH Metro Area",80.9,453,45780,"Black or African American alone, not Hispanic or Latino"
+359,"Tulsa, OK Metro Area",74.8,453,46140,"Black or African American alone, not Hispanic or Latino"
+360,"Virginia Beach-Norfolk-Newport News, VA-NC Metro Area",75.3,453,47260,"Black or African American alone, not Hispanic or Latino"
+361,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",87.2,453,47900,"Black or African American alone, not Hispanic or Latino"
+362,"Winston-Salem, NC Metro Area",68.9,453,49180,"Black or African American alone, not Hispanic or Latino"
