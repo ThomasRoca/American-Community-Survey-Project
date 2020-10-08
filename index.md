@@ -134,20 +134,11 @@ df.to_csv('ACS_broadband.csv')
 #display table sorted by metro area
 df.sort_values(["NAME"])
 ```
-[https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_307E&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&POPGROUP=001&POPGROUP=451&POPGROUP=453&POPGROUP=400&POPGROUP=012&key=](https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_307E&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&POPGROUP=001&POPGROUP=451&POPGROUP=453&POPGROUP=400&POPGROUP=012&key=)
+[https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_308E&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&POPGROUP=001&POPGROUP=451&POPGROUP=453&POPGROUP=400&key=](https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_308E&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&POPGROUP=001&POPGROUP=451&POPGROUP=453&POPGROUP=400&key=)
 
 <table border="0" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
-      <th>NAME</th>
-      <th>S0201_308E</th>
-      <th>POPGROUP</th>
-      <th>metropolitan statistical area/micropolitan statistical area</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
       <th>0</th>
       <td>Akron, OH Metro Area</td>
       <td>86.0</td>
@@ -155,31 +146,31 @@ df.sort_values(["NAME"])
       <td>10420</td>
     </tr>
     <tr>
-      <th>214</th>
+      <th>292</th>
       <td>Akron, OH Metro Area</td>
-      <td>80.7</td>
-      <td>004</td>
+      <td>80.5</td>
+      <td>453</td>
       <td>10420</td>
     </tr>
     <tr>
-      <th>107</th>
+      <th>186</th>
       <td>Akron, OH Metro Area</td>
       <td>86.9</td>
-      <td>002</td>
+      <td>451</td>
       <td>10420</td>
     </tr>
     <tr>
-      <th>1</th>
+      <th>293</th>
       <td>Albany-Schenectady-Troy, NY Metro Area</td>
-      <td>86.9</td>
-      <td>001</td>
+      <td>78.0</td>
+      <td>453</td>
       <td>10580</td>
     </tr>
     <tr>
-      <th>108</th>
+      <th>187</th>
       <td>Albany-Schenectady-Troy, NY Metro Area</td>
-      <td>87.7</td>
-      <td>002</td>
+      <td>87.5</td>
+      <td>451</td>
       <td>10580</td>
     </tr>
     <tr>
@@ -190,13 +181,6 @@ df.sort_values(["NAME"])
       <td>...</td>
     </tr>
     <tr>
-      <th>212</th>
-      <td>Worcester, MA-CT Metro Area</td>
-      <td>87.6</td>
-      <td>002</td>
-      <td>49340</td>
-    </tr>
-    <tr>
       <th>105</th>
       <td>Worcester, MA-CT Metro Area</td>
       <td>87.9</td>
@@ -204,24 +188,31 @@ df.sort_values(["NAME"])
       <td>49340</td>
     </tr>
     <tr>
-      <th>365</th>
+      <th>185</th>
       <td>Worcester, MA-CT Metro Area</td>
       <td>83.8</td>
       <td>400</td>
       <td>49340</td>
     </tr>
     <tr>
+      <th>290</th>
+      <td>Worcester, MA-CT Metro Area</td>
+      <td>87.8</td>
+      <td>451</td>
+      <td>49340</td>
+    </tr>
+    <tr>
+      <th>291</th>
+      <td>Youngstown-Warren-Boardman, OH-PA Metro Area</td>
+      <td>82.0</td>
+      <td>451</td>
+      <td>49660</td>
+    </tr>
+    <tr>
       <th>106</th>
       <td>Youngstown-Warren-Boardman, OH-PA Metro Area</td>
       <td>81.8</td>
       <td>001</td>
-      <td>49660</td>
-    </tr>
-    <tr>
-      <th>213</th>
-      <td>Youngstown-Warren-Boardman, OH-PA Metro Area</td>
-      <td>82.1</td>
-      <td>002</td>
       <td>49660</td>
     </tr>
   </tbody>
