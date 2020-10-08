@@ -67,11 +67,12 @@ And now we can define our parameters (using ``spp?get=`` as a prefix):
 In this tutorial we want to take advantage of the detailed data for population group ("Black and African American, White, Hispanic or Latino", etc.). 
 The parameter ``POPGROUP`` allow querying by population groups. Here are some examples of population group codes:
 - "001": "Total population"
-- "002": "White alone"
+- "451": "White alone, not Hispanic or Latino"
 - "400": "Hispanic or Latino (of any race) (200-299)"
-- "004": "Black or African American alone"
-- "012": "Asian alone (400-499)"<br>
+- "453": "Black or African American alone, not Hispanic or Latino"
+- "457": "Asian alone, not Hispanic or Latino"<br>
 - *More info about available population groups ("Race/Ethnic Group"): [here](https://api.census.gov/data/2019/acs/acs1/spp/variables/POPGROUP.json)*
+
 
 Many indicators are available in the survey, here is a list for the 2019 ACS: [https://api.census.gov/data/2019/acs/acs1/spp/variables.html](https://api.census.gov/data/2019/acs/acs1/spp/variables.html).
 
@@ -79,7 +80,6 @@ Results are available for several geography levels (States, congressional distri
 
 As an example, here is how to get the **total population for Alameda County (code 001) in the state of California (state code 06)** for the ACS 2019:
 [https://api.census.gov/data/2019/pep/population?get=NAME,POP&for=county:001&in=state:06](https://api.census.gov/data/2019/pep/population?get=NAME,POP&for=county:001&in=state:06)
-
 
 More information about codes for states, county, population groups etc. are available on the ACS web page, we encourage you to search for them.
 
@@ -108,8 +108,8 @@ indicator="S0201_308E"
 
 # we want Total population, white, Black or African American and Hispanic or Latino
 popgroup1="001"
-popgroup2="002"
-popgroup3="004"
+popgroup2="451"
+popgroup3="453"
 popgroup4="400"
 
 # here is the geography level : Metropolitan statistical area and micropolitan area
@@ -134,7 +134,7 @@ df.to_csv('ACS_broadband.csv')
 #display table sorted by metro area
 df.sort_values(["NAME"])
 ```
-[https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_307E&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&POPGROUP=001&POPGROUP=002&POPGROUP=004&POPGROUP=400&POPGROUP=012&key=](https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_307E&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&POPGROUP=001&POPGROUP=002&POPGROUP=004&POPGROUP=400&POPGROUP=012&key=)
+[https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_307E&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&POPGROUP=001&POPGROUP=451&POPGROUP=453&POPGROUP=400&POPGROUP=012&key=](https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_307E&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&POPGROUP=001&POPGROUP=451&POPGROUP=453&POPGROUP=400&POPGROUP=012&key=)
 
 <table border="0" class="dataframe">
   <thead>
