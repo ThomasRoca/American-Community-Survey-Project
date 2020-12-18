@@ -10,6 +10,7 @@
 - [**2. Example of query using Python**](#Python)
 - [**3. Example of query using JavaScript**](#JS)
 
+
 <a name="Intro">
   
 ## Introduction
@@ -38,7 +39,7 @@ As put by the U.S. Census Bureau, "the American Community Survey (ACS) is an ong
   - [Microsoft Python for data analysis](https://notebooks.azure.com/wesm/projects/python-for-data-analysis)
 - JavaScript resources: [W3 schools JavaScript tutorial](https://www.w3schools.com/js/DEFAULT.asp)
 - HTML resources: [W3 schools HTML tutorial](https://www.w3schools.com/html/)
-
+</a>
 <a name="API">
   
 ## 1. American Community Survey API endpoint
