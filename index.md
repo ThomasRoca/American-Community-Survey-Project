@@ -6,7 +6,7 @@
 
 ## Table of content
 - [**Introduction**](#Intro)
-- [**1. American Community Survey API endpoint**](#AP)
+- [**1. American Community Survey API endpoint**](#API)
 - [**2. Example of query using Python**](#Python)
 - [**3. Example of query using JavaScript**](#JS)
 
