@@ -4,6 +4,14 @@
 ## About this tutorial
 [Open data](https://theodi.org/article/what-is-open-data-and-why-should-we-care/) is about transparency, accountability and empowerment. By making accessible the data they collect - those data points that can be shared without harming data subjects - organizations provide information to the public but also opportunities to build systems and applications that consume data, transform it, re-purpose it and eventually make it even more useful for society. Read more about Microsoft's contribution and our [Open Data Campaign](https://blogs.microsoft.com/on-the-issues/2020/04/21/open-data-campaign-divide/).
 
+## Table of content
+- [**Introduction**](##Introduction)
+- **1. American Community Survey API endpoint**
+- **2. Example of query using Python**
+- **3. Example of query using JavaScript**
+
+## Introduction
+
 **Why using an API?** APIs allow to programmatically access remote data sources. When plugging a table, a chart or a web page to remote data sources, your data points are always up-to-date. APIs are often associated with databases too large to easily navigate them via a spreadsheet. If you don't want to download the entire database to access just a few data points, what you need is a query. You can then adapt to users' data needs by customizing your query and have this information rendered the most efficient and compelling way possible.
 
 In this tutorial, I'm going to present one of the most insightful sources of data to understand racial inequality in the United States. I'll provide tips to leverage its [API](https://en.wikipedia.org/wiki/API) - i.e. way to programmatically query the database. I will also provide examples of data visualizations and simple applications we can build on the top of the database. I will provide snippets of [**Python**](https://www.python.org/) code and [**JavaScript**](https://developer.mozilla.org/en-US/docs/Web/JavaScript). I will use [**Microsoft PowerBI**](https://powerbi.microsoft.com/), [**Highcharts**](https://www.highcharts.com/) and [**d3.js**](https://d3js.org/) to visualize this information and reveal some of the insights hidden in this very rich dataset.
@@ -380,7 +388,6 @@ Complete code and results on JSfiddle:
 d3 stands for Data-Driven Document, [d3.js](https://d3js.org/) is an open source data visualization library. It is not the easiest to implement but it provides full flexibility. Here is an example of a simple bar chart rendering the previous API query.
 
 <iframe width="100%" height="450" src="https://jsfiddle.net/ThomasRoca/cmr4j1h7/embedded/result,js,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-
 
 
 ### ii. Your first application using Highcharts
