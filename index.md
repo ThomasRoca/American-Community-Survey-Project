@@ -5,9 +5,9 @@
 [Open data](https://theodi.org/article/what-is-open-data-and-why-should-we-care/) is about transparency, accountability and empowerment. By making accessible the data they collect - those data points that can be shared without harming data subjects - organizations provide information to the public but also opportunities to build systems and applications that consume data, transform it, re-purpose it and eventually make it even more useful for society. Read more about Microsoft's contribution and our [Open Data Campaign](https://blogs.microsoft.com/on-the-issues/2020/04/21/open-data-campaign-divide/).
 
 ## Table of content
-- [**Introduction**](## Introduction)
-- [**1. American Community Survey API endpoint**](## )
-- [**2. Example of query using Python**](## 2. Example of query using Python)
+- [**Introduction**](#Introduction)
+- [**1. American Community Survey API endpoint**](#1. American Community Survey API endpoint)
+- [**2. Example of query using Python**](#2. Example of query using Python)
 - [**3. Example of query using JavaScript**](##)
 
 ## Introduction
