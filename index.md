@@ -6,11 +6,12 @@
 
 ## Table of content
 - [**Introduction**](#Intro)
-- [**1. American Community Survey API endpoint**](#1. American Community Survey API endpoint)
-- [**2. Example of query using Python**](#2. Example of query using Python)
-- [**3. Example of query using JavaScript**](##)
+- [**1. American Community Survey API endpoint**](#AP)
+- [**2. Example of query using Python**](#Python)
+- [**3. Example of query using JavaScript**](#JS)
 
 <a name="Intro">
+  
 ## Introduction
 
 **Why using an API?** APIs allow to programmatically access remote data sources. When plugging a table, a chart or a web page to remote data sources, your data points are always up-to-date. APIs are often associated with databases too large to easily navigate them via a spreadsheet. If you don't want to download the entire database to access just a few data points, what you need is a query. You can then adapt to users' data needs by customizing your query and have this information rendered the most efficient and compelling way possible.
@@ -38,6 +39,8 @@ As put by the U.S. Census Bureau, "the American Community Survey (ACS) is an ong
 - JavaScript resources: [W3 schools JavaScript tutorial](https://www.w3schools.com/js/DEFAULT.asp)
 - HTML resources: [W3 schools HTML tutorial](https://www.w3schools.com/html/)
 
+<a name="API">
+  
 ## 1. American Community Survey API endpoint
 An endpoint is simply the base url of an API. It contains the necessary information for the database to respond with the exact data points user want.
 
@@ -94,8 +97,10 @@ More information about codes for states, county, population groups etc. are avai
 
 Finally, if you want to make many requests to the API (More than 500 queries per IP address per day), you will need to get an [API key](https://api.census.gov/data/key_signup.html) - it's free. 
 To use your API key, just add the parameter ``&key=``  - followed by your api key -  at the end of your query.
+</a>
 
-
+<a name="Python">
+  
 ## 2. Example of query using Python
 
 You now have a better understanding of the way the *American Community Survey's* API works. Let's put this into practice writting some code in Python.
@@ -333,7 +338,10 @@ As another example of visualization, we showcase below what can be easily achiev
 <iframe width="100%" height="550" src="https://msit.powerbi.com/view?r=eyJrIjoiOTRkNzc2OGQtN2ExYi00NDgyLTk1ZTQtYTY3YTNmNTMyYThlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
 
 <br>
+</a>
 
+<a name="JS">
+  
 ## 3. Example of query using JavaScript
 Let's continue our journey with JavaScript. If you want to build a web application the standard way is to use JavaScript and HTML/CSS. I will start with a simple query
 asking the API for poverty rate (code: ``S0201_255E``) for "New York-Newark-Jersey City, NY-NJ-PA Metro Area" which code is ``35620`` (see [full list](https://github.com/ThomasRoca/American-Community-Survey-Project/blob/master/Metropolitan_area_code.json)) for ``Total population`` (code ``001``) AND for ``Black or African American`` (code ``004``) <br>
@@ -401,7 +409,7 @@ Here as well, the code is commented in the JavaScript tab of the JSfiddle below.
 
 <iframe width="100%" height="575px" src="https://jsfiddle.net/ThomasRoca/t8d2v4p9/embedded/result,js,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 <br>
-
+</a>
 ## Conclusion
 
 The *American Community Survey* is a rich dataset which provides much insight to understand racial inequalities in the United States. Scrolling-up and taking a closer look at those data points and charts you will get a first taste of this systemic or systematic inequalities. Although this tutorial focuses on the technical intricacies of leveraging APIs to fish data points, I hope journalists and data-journalists will find it useful to raise awareness on the fate of the Black or African American community, but also the Hispanic and Latino community in the U.S.
