@@ -4,10 +4,7 @@
 ## About this tutorial
 [Open data](https://theodi.org/article/what-is-open-data-and-why-should-we-care/) is about transparency, accountability and empowerment. By making accessible the data they collect - those data points that can be shared without harming data subjects - organizations provide information to the public but also opportunities to build systems and applications that consume data, transform it, re-purpose it and eventually make it even more useful for society. Read more about Microsoft's contribution and our [Open Data Campaign](https://blogs.microsoft.com/on-the-issues/2020/04/21/open-data-campaign-divide/).
 
-*For more an quick introduction to this tutorial watch this **short video explaining the project**:*
-
-
-[![Alt text](https://img.youtube.com/vi/f-3SnPA6IHo/0.jpg)](https://www.youtube.com/watch?v=f-3SnPA6IHo)
+*For more an quick introduction to this tutorial watch this [**short video explaining the project**](https://www.youtube.com/watch?v=f-3SnPA6IHo)
 
 
 ## Table of content
