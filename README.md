@@ -8,7 +8,7 @@ This repository hosts code snipets and meta-data described in this **github page
 - [ACS_broadband.csv](https://github.com/ThomasRoca/American-Community-Survey-Project/blob/master/ACS_broadband.csv) is an example of dataset accessed via the API
 - geographic meta-data such as Metropolitan_area_code.json, State_code_ACS.json, county_code_ACS.json provides codes associated with geographic names.
 
-*For more an quick introduction to this tutorial watch this short video explaining the project:*
+*For more an quick introduction to this tutorial watch this **short video explaining the project**:*
 
 
 [![Alt text](https://img.youtube.com/vi/f-3SnPA6IHo/0.jpg)](https://www.youtube.com/watch?v=f-3SnPA6IHo)
