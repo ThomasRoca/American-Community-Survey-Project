@@ -152,7 +152,7 @@ df.to_csv('ACS_broadband.csv')
 #display table sorted by metro area
 df.sort_values(["NAME"])
 ```
-[https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_308E&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&POPGROUP=001&POPGROUP=451&POPGROUP=453&POPGROUP=400&key=](https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_308E&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&POPGROUP=001&POPGROUP=451&POPGROUP=453&POPGROUP=400&key=)
+[https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_308E&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&POPGROUP=001&POPGROUP=451&POPGROUP=453&POPGROUP=400](https://api.census.gov/data/2018/acs/acs1/spp?get=NAME,S0201_308E&for=metropolitan%20statistical%20area/micropolitan%20statistical%20area:*&POPGROUP=001&POPGROUP=451&POPGROUP=453&POPGROUP=400)
 
 <table border="0" class="dataframe">
    <thead>
